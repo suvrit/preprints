@@ -1,8 +1,8 @@
 <div align="center">
 
-# preprints
+# Preprints
 
-**Papers by Suvrit Sra, released version by version, every file timestamped.**
+**Preprints by Suvrit Sra, released version by version, every file timestamped.**
 
 [![timestamps: OpenTimestamps](https://img.shields.io/badge/timestamps-OpenTimestamps-f7931a?logo=bitcoin&logoColor=white)](#checking-a-timestamp)
 [![arXiv: Suvrit Sra](https://img.shields.io/badge/arXiv-Suvrit%20Sra-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/search/?searchtype=author&query=Sra%2C+Suvrit)
@@ -17,11 +17,15 @@ OpenTimestamps proof made on the day it was released.</sub>
 
 </div>
 
+This repository contains the "initial public release" of my papers (from Oct 1, 2026 onwards) and supporting material for those papers. Not everything here will be on arXiv simultaneously (either due to their rate limits, or simply because the work was not arXiv-worthy yet); some works may eventually make it to conferences or journals if I find time to go through that process. My primary aim in sharing these works is the usual: dissemination of information in the hope that somebody else also finds it interesting and/or useful; and of course, sharing the joy of mathematics; merely because some of the work has AI assistance doesn't remove any of that joy or value. 
+
 Each paper has its own folder, and each release of it is a numbered version
 (`v1`, `v2`, …) that stays in place when later ones appear. The paper's README
 lists every version, newest first, with its abstract. When a version is also on
 arXiv, the table links it; the version numbers here are this repository's own,
 not arXiv's.
+
+
 
 ## Papers
 
