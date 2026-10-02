@@ -28,8 +28,8 @@ not arXiv's.
 <!-- release:start -->
 | Paper | Latest | Released | PDF | arXiv |
 |---|---|---|---|---|
-| [**Positive definite functions of noncommuting contractions, Hua-Bellman matrices, and a new distance metric**](hua/) | v1 | 2 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](hua/v1/hua-v1.pdf) | [![arXiv](https://img.shields.io/badge/arXiv-2112.00056v2-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2112.00056v2) |
-| [**A Koteljanskii inequality for permanents**](perm-m-matrix/) | v1 | 2 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](perm-m-matrix/v1/perm-m-matrix-v1.pdf) | [![arXiv](https://img.shields.io/badge/arXiv-2609.39979v1-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.39979v1) |
+| [**Positive definite functions of noncommuting contractions, Hua-Bellman matrices, and a new distance metric**](hua/) | v1 | 2 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](hua/v1/hua-v1.pdf) | [2112.00056v2](https://arxiv.org/abs/2112.00056v2) |
+| [**A Koteljanskii inequality for permanents**](perm-m-matrix/) | v1 | 2 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](perm-m-matrix/v1/perm-m-matrix-v1.pdf) | [2609.39979v1](https://arxiv.org/abs/2609.39979v1) |
 <!-- release:end -->
 
 ## Checking a timestamp
