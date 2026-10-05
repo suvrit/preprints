@@ -1,0 +1,17 @@
+{
+  "versions": [
+    {
+      "version": "v1",
+      "date": "2026-10-05",
+      "title": "A Proof of McLeod's 1959 Conjecture on Complete Homogeneous Symmetric Ratios",
+      "pages": 11,
+      "arxiv": null,
+      "arxiv_date": null,
+      "comment": null,
+      "abstract": "We prove McLeod's (1959) conjecture that $(h_{\\ell+r}/h_\\ell)^{1/r}$ is subadditive for all $\\ell\\ge0$ and $r\\ge1$, where $h_k$ is the complete homogeneous symmetric polynomial of degree $k$ (J. B. McLeod, \"On four inequalities in symmetric functions\", Proc. Edinburgh Math. Soc., 1959). We first prove that the ratio $h_k/h_{k-1}$ is convex, and our proof takes an unexpected detour through queuing theory. The geometric mean of $r$ consecutive such ratios equals McLeod's conjectured function, but geometric means of convex functions need not be convex. Our second and decisive step is a tensorization trick that couples neighboring ratios tightly enough to make their geometric mean convex.",
+      "files": [
+        "mcleod-hk-v1.pdf"
+      ]
+    }
+  ]
+}
