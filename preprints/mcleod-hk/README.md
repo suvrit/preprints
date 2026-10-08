@@ -7,6 +7,7 @@ Suvrit Sra
 
 [![latest version](https://img.shields.io/badge/latest-v1-0b7285)](v1/)
 [![PDF](https://img.shields.io/badge/PDF-download-0b7285)](v1/mcleod-hk-v1.pdf)
+[![arXiv](https://img.shields.io/badge/arXiv-2610.07302v1-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2610.07302v1)
 [![OpenTimestamps proof](https://img.shields.io/badge/timestamp-OpenTimestamps-f7931a?logo=bitcoin&logoColor=white)](v1/mcleod-hk-v1.pdf.ots)
 
 <sub>11 pages · v1 released 5 October 2026 · 1 version</sub>
@@ -15,7 +16,7 @@ Suvrit Sra
 
 ## v1 — 5 October 2026
 
-**A Proof of McLeod's 1959 Conjecture on Complete Homogeneous Symmetric Ratios** · 11 pages
+**A Proof of McLeod's 1959 Conjecture on Complete Homogeneous Symmetric Ratios** · 11 pages · also on arXiv as [2610.07302v1](https://arxiv.org/abs/2610.07302v1) (5 October 2026)
 
 | File | Timestamp |
 |---|---|
@@ -28,12 +29,14 @@ Suvrit Sra
 
 ```bibtex
 @misc{sra2026mcleod-hk-v1,
-  author       = {Suvrit Sra},
-  title        = {{A Proof of McLeod's 1959 Conjecture on Complete Homogeneous Symmetric Ratios}},
-  year         = {2026},
-  month        = oct,
-  howpublished = {Preprint, \url{https://github.com/suvrit/preprints/tree/main/preprints/mcleod-hk/v1}},
-  note         = {Version v1, released 5 October 2026},
+  author        = {Suvrit Sra},
+  title         = {{A Proof of McLeod's 1959 Conjecture on Complete Homogeneous Symmetric Ratios}},
+  year          = {2026},
+  month         = oct,
+  howpublished  = {\url{https://arxiv.org/abs/2610.07302v1}},
+  eprint        = {2610.07302v1},
+  archiveprefix = {arXiv},
+  note          = {Also released as mcleod-hk v1 (5 October 2026) at \url{https://github.com/suvrit/preprints/tree/main/preprints/mcleod-hk/v1}},
 }
 ```
 

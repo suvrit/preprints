@@ -38,7 +38,7 @@ not arXiv's.
 | [**On Lin's Arithmetic–Geometric Means Conjecture for Singular Values**](preprints/linconj/) | v1 | 8 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/linconj/v1/linconj-v1.pdf) | — |
 | [**Weak positivity of Schur forms under decomposable curvature**](preprints/qperm/) | v1 | 8 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/qperm/v1/qperm-v1.pdf) | — |
 | [**Monotonicity of Turán-ratios of symmetric polynomials**](preprints/sym-turan/) | v1 | 7 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/sym-turan/v1/sym-turan-v1.pdf) | — |
-| [**A Proof of McLeod's 1959 Conjecture on Complete Homogeneous Symmetric Ratios**](preprints/mcleod-hk/) | v1 | 5 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/mcleod-hk/v1/mcleod-hk-v1.pdf) | — |
+| [**A Proof of McLeod's 1959 Conjecture on Complete Homogeneous Symmetric Ratios**](preprints/mcleod-hk/) | v1 | 5 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/mcleod-hk/v1/mcleod-hk-v1.pdf) | [2610.07302v1](https://arxiv.org/abs/2610.07302v1) |
 | [**Positive definite functions of noncommuting contractions, Hua-Bellman matrices, and a new distance metric**](preprints/hua/) | v1 | 2 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/hua/v1/hua-v1.pdf) | [2112.00056v2](https://arxiv.org/abs/2112.00056v2) |
 | [**A Koteljanskii inequality for permanents**](preprints/perm-m-matrix/) | v1 | 2 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/perm-m-matrix/v1/perm-m-matrix-v1.pdf) | [2609.39979v1](https://arxiv.org/abs/2609.39979v1) |
 <!-- release:end -->
