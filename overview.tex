@@ -7,6 +7,9 @@
 \setmathfont{texgyrepagella-math.otf}
 \usepackage[protrusion=true,expansion=false]{microtype}
 \usepackage{fancyhdr,lastpage,xcolor,ragged2e,needspace}
+\usepackage{Zallman}
+\usepackage{pgfornament}
+\newcommand{\compiledate}{\number\day~\ifcase\month\or January\or February\or March\or April\or May\or June\or July\or August\or September\or October\or November\or December\fi~\number\year}
 \definecolor{muted}{gray}{0.38}
 \definecolor{linkink}{HTML}{275B59}
 \usepackage[unicode,colorlinks=true,linkcolor=linkink,urlcolor=linkink,pdfauthor={Suvrit Sra},pdftitle={Preprints: overview},pdfsubject={5 papers}]{hyperref}
@@ -18,45 +21,55 @@
 \raggedbottom
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[L]{\footnotesize\scshape Preprints}
-\fancyhead[C]{\footnotesize\color{muted}\today}
-\fancyhead[R]{\footnotesize\scshape Suvrit Sra}
+\fancyhead[L]{\footnotesize\scshape\color{linkink}Preprints}
+\fancyhead[C]{\footnotesize\color{muted}Last compiled on \compiledate}
+\fancyhead[R]{\footnotesize\scshape\color{linkink}Suvrit Sra}
 \fancyfoot[L]{\footnotesize\color{muted}5 papers}
 \fancyfoot[R]{\footnotesize\thepage\, /\,\pageref*{LastPage}}
 \renewcommand{\headrulewidth}{0.3pt}
 \renewcommand{\footrulewidth}{0pt}
-\fancypagestyle{firstpage}{\fancyhead{}\fancyhead[C]{\footnotesize\color{muted}\today}\renewcommand{\headrulewidth}{0pt}}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{linkink}\leaders\hrule height\headrulewidth\hfill}}
+\fancypagestyle{firstpage}{\fancyhead{}\fancyhead[C]{\footnotesize\color{muted}Last compiled on \compiledate}\renewcommand{\headrulewidth}{0pt}}
 \newcommand{\cataloguesection}[2]{%
-  \par\Needspace{10\baselineskip}\addvspace{12pt}%
+  \par\Needspace{12\baselineskip}\addvspace{18pt}%
   \hypertarget{subject#2}{}\label{subject#2}%
   \pdfbookmark[0]{#1}{section#2}%
-  {\fontsize{15}{18}\selectfont\bfseries #1\par}%
-  \nobreak\vspace{9pt}\nobreak
+  \noindent\catalogueheading#1\relax\par
+  \nobreak\vspace{4pt}\nobreak
+  {\color{linkink}\hrule height 0.4pt}%
+  \nobreak\vspace{10pt}\nobreak
 }
+\def\catalogueheading#1#2\relax{%
+  {\color{linkink}\fontsize{42}{42}\selectfont\Zallmanfamily #1}%
+  \hspace{2pt}{\color{linkink}\fontsize{17}{20}\selectfont\scshape #2}}
+\newcommand{\contentsleader}{{\color{muted}\leaders\hbox to 0.8em{\hss.\hss}\hfill}}
 \newcommand{\resultentry}[4]{%
   \par\noindent\begin{minipage}{\linewidth}%
   \fontsize{10.5}{12.6}\selectfont\RaggedRight%
   \hypertarget{result#1}{}%
-  {\bfseries\textcolor{muted}{#1.}\enspace #2.}\enspace #3\par%
+  {\bfseries\textcolor{linkink}{#1.}\enspace #2.}\enspace #3\par%
   \vspace{1.2pt}{\fontsize{8}{9.5}\selectfont\color{muted}#4\par}%
   \end{minipage}\par\vspace{5pt}%
 }
 \begin{document}
 \thispagestyle{firstpage}
-{\small\scshape Mathematics\hfill Suvrit Sra\par}
-\vspace{5pt}
-{\LARGE\bfseries Preprints\par}
-\vspace{4pt}
-{\small 5 papers\hfill \today\par}
+\begin{center}
+{\small\scshape\color{muted}Mathematics\enspace\textperiodcentered\enspace Suvrit Sra\par}
+\vspace{12pt}
+{\fontsize{30}{36}\selectfont\scshape\color{linkink}Preprints\par}
+\vspace{8pt}
+\pgfornament[width=0.45\linewidth,color=linkink]{88}\par
+\vspace{6pt}
+{\small\itshape 5 papers\par}
+\end{center}
 \vspace{7pt}
-{\small An overview of the papers released at \href{https://github.com/suvrit/preprints}{github.com/suvrit/preprints}. Except where marked, the mathematics in these papers was developed in sustained dialogue with an AI assistant (GPT Pro); none of the results is zero-shot. Results are grouped by subject; entry numbers do not indicate a ranking. Each summary is followed by the paper's title, linked to its latest timestamped PDF, and its version.\par}
-\vspace{8pt}\hrule height 0.35pt\vspace{5pt}
-
-{\large\bfseries Contents\par}
-\vspace{7pt}
-\noindent\hyperlink{subject1}{Combinatorics}\nobreak\hfill\pageref*{subject1}\par\vspace{5pt}
-\noindent\hyperlink{subject2}{Matrix analysis}\nobreak\hfill\pageref*{subject2}\par\vspace{5pt}
-\noindent\hyperlink{subject3}{Complex geometry}\nobreak\hfill\pageref*{subject3}\par\vspace{5pt}
+{\small An overview of the papers released at \href{https://github.com/suvrit/preprints}{github.com/suvrit/preprints}. Except where marked, the mathematics in these papers was developed in sustained dialogue with an AI assistant (GPT Pro); none of the results is zero-shot. Claude Code was used extensively for writing, editing, and repository management. Results are grouped by subject; entry numbers do not indicate a ranking. Each summary is followed by the paper's title, linked to its latest timestamped PDF, and its version.\par}
+\vspace{14pt}
+{\centering\scshape\color{linkink}Contents\par}
+\vspace{8pt}
+\noindent\hyperlink{subject1}{Combinatorics}\nobreak\contentsleader\pageref*{subject1}\par\vspace{5pt}
+\noindent\hyperlink{subject2}{Matrix analysis}\nobreak\contentsleader\pageref*{subject2}\par\vspace{5pt}
+\noindent\hyperlink{subject3}{Complex geometry}\nobreak\contentsleader\pageref*{subject3}\par\vspace{5pt}
 
 \cataloguesection{Combinatorics}{1}
 
@@ -74,4 +87,6 @@
 
 \resultentry{5}{Schur forms under decomposable curvature}{Griffiths asked in 1969 whether positive curvature of a Hermitian holomorphic vector bundle forces positivity of its characteristic forms; Du's rank-nine example shows that a strictly Griffiths-positive metric can have a top Chern form that is negative on an open set. Proves that every Schur form is weakly nonnegative wherever the curvature is decomposable, a sum of a completely positive and a completely copositive map, with no splitting assumption. The algebraic input is $\Phi_n(H)\ge0$ for Finski's double mixed discriminant of every decomposable map, from a quaternionic Gaussian determinant formula. Beyond the decomposable cone, $\Phi_k\ge0$ on every square compression of $H$ is equivalent to $\Phi_n(H+S)\ge0$ for every entanglement-breaking map $S$; this class contains indecomposable maps but is not convex for $n\ge9$, since Du's map is an average of four of its members.}{\href{https://github.com/suvrit/preprints/blob/main/preprints/qperm/v1/qperm-v1.pdf}{Weak positivity of Schur forms under decomposable curvature}\enspace\textperiodcentered\enspace v1, 8 October 2026}
 
+\par\vspace{20pt}
+{\centering\pgfornament[width=3.2cm,color=linkink]{84}\par}
 \end{document}
