@@ -25,6 +25,8 @@ lists every version, newest first, with its abstract. When a version is also on
 arXiv, the table links it; the version numbers here are this repository's own,
 not arXiv's.
 
+[`overview.pdf`](overview.pdf) summarizes every paper in one paragraph, grouped by subject.
+
 
 
 ## Papers
@@ -58,6 +60,7 @@ the file and its `.ots` onto [opentimestamps.org](https://opentimestamps.org).
 ```text
 .
 ├─ README.md                    this file; the badges and the table are generated
+├─ overview.tex, overview.pdf   one summary per paper, grouped by subject
 └─ preprints/
    └─ <paper>/
       ├─ README.md              every version, newest first, with its abstract

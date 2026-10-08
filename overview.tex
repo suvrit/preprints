@@ -1,0 +1,77 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[a4paper,left=21mm,right=21mm,top=20mm,bottom=20mm,headheight=12pt,headsep=6mm,footskip=9mm]{geometry}
+\usepackage{fontspec}
+\setmainfont{texgyrepagella-regular.otf}[BoldFont=texgyrepagella-bold.otf,ItalicFont=texgyrepagella-italic.otf,BoldItalicFont=texgyrepagella-bolditalic.otf]
+\usepackage{amsmath}
+\usepackage{unicode-math}
+\setmathfont{texgyrepagella-math.otf}
+\usepackage[protrusion=true,expansion=false]{microtype}
+\usepackage{fancyhdr,lastpage,xcolor,ragged2e,needspace}
+\definecolor{muted}{gray}{0.38}
+\definecolor{linkink}{HTML}{275B59}
+\usepackage[unicode,colorlinks=true,linkcolor=linkink,urlcolor=linkink,pdfauthor={Suvrit Sra},pdftitle={Preprints: overview},pdfsubject={5 papers}]{hyperref}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\emergencystretch}{1.2em}
+\widowpenalty=10000
+\clubpenalty=10000
+\raggedbottom
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\scshape Preprints}
+\fancyhead[C]{\footnotesize\color{muted}\today}
+\fancyhead[R]{\footnotesize\scshape Suvrit Sra}
+\fancyfoot[L]{\footnotesize\color{muted}5 papers}
+\fancyfoot[R]{\footnotesize\thepage\, /\,\pageref*{LastPage}}
+\renewcommand{\headrulewidth}{0.3pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancypagestyle{firstpage}{\fancyhead{}\fancyhead[C]{\footnotesize\color{muted}\today}\renewcommand{\headrulewidth}{0pt}}
+\newcommand{\cataloguesection}[2]{%
+  \par\Needspace{10\baselineskip}\addvspace{12pt}%
+  \hypertarget{subject#2}{}\label{subject#2}%
+  \pdfbookmark[0]{#1}{section#2}%
+  {\fontsize{15}{18}\selectfont\bfseries #1\par}%
+  \nobreak\vspace{9pt}\nobreak
+}
+\newcommand{\resultentry}[4]{%
+  \par\noindent\begin{minipage}{\linewidth}%
+  \fontsize{10.5}{12.6}\selectfont\RaggedRight%
+  \hypertarget{result#1}{}%
+  {\bfseries\textcolor{muted}{#1.}\enspace #2.}\enspace #3\par%
+  \vspace{1.2pt}{\fontsize{8}{9.5}\selectfont\color{muted}#4\par}%
+  \end{minipage}\par\vspace{5pt}%
+}
+\begin{document}
+\thispagestyle{firstpage}
+{\small\scshape Mathematics\hfill Suvrit Sra\par}
+\vspace{5pt}
+{\LARGE\bfseries Preprints\par}
+\vspace{4pt}
+{\small 5 papers\hfill \today\par}
+\vspace{7pt}
+{\small An overview of the papers released at \href{https://github.com/suvrit/preprints}{github.com/suvrit/preprints}. Except where marked, the mathematics in these papers was developed in sustained dialogue with an AI assistant (GPT Pro); none of the results is zero-shot. Results are grouped by subject; entry numbers do not indicate a ranking. Each summary is followed by the paper's title, linked to its latest timestamped PDF, and its version.\par}
+\vspace{8pt}\hrule height 0.35pt\vspace{5pt}
+
+{\large\bfseries Contents\par}
+\vspace{7pt}
+\noindent\hyperlink{subject1}{Combinatorics}\nobreak\hfill\pageref*{subject1}\par\vspace{5pt}
+\noindent\hyperlink{subject2}{Matrix analysis}\nobreak\hfill\pageref*{subject2}\par\vspace{5pt}
+\noindent\hyperlink{subject3}{Complex geometry}\nobreak\hfill\pageref*{subject3}\par\vspace{5pt}
+
+\cataloguesection{Combinatorics}{1}
+
+\resultentry{1}{McLeod's 1959 conjecture}{Proves McLeod's conjecture that $(h_{\ell+r}/h_\ell)^{1/r}$ is subadditive for all $\ell\ge0$ and $r\ge1$, where $h_k$ is the complete homogeneous symmetric polynomial of degree $k$. The first step proves that $h_k/h_{k-1}$ is convex, through a closed queueing network; a tensorization argument then couples neighboring ratios tightly enough to make their geometric mean convex.}{\href{https://github.com/suvrit/preprints/blob/main/preprints/mcleod-hk/v1/mcleod-hk-v1.pdf}{A Proof of McLeod's 1959 Conjecture on Complete Homogeneous Symmetric Ratios}\enspace\textperiodcentered\enspace v1, 5 October 2026}
+
+\resultentry{2}{Monotone Tur\'an-ratios of Schur polynomials}{Proves that the Tur\'an-ratio $S_{\lambda,i}(x)^2/(S_{\lambda,i-1}(x)S_{\lambda,i+1}(x))$ is strictly increasing for $x>1$ and $1\le i<n$, where $S_{\lambda,i}(x)=s_\lambda(1^{[n-i]},x^{[i]})$ is the Schur polynomial in $n$ variables with $i$ arguments equal to $x$ and the rest equal to $1$, unless all $n$ padded parts of $\lambda$ are equal. For one-row shapes this answers a question of Ait-Haddou on complete homogeneous symmetric polynomials, and a second proof through the zeros of Meixner polynomials gives a positive formula for the logarithmic derivative. Conjectures the analogue for Macdonald polynomials.}{\href{https://github.com/suvrit/preprints/blob/main/preprints/sym-turan/v1/sym-turan-v1.pdf}{Monotonicity of Tur\'an-ratios of symmetric polynomials}\enspace\textperiodcentered\enspace v1, 7 October 2026}
+
+\resultentry{3}{A Koteljanskii inequality for permanents}{Proves that $\operatorname{per}(A_{S\cup T})\operatorname{per}(A_{S\cap T})\ge\operatorname{per}(A_S)\operatorname{per}(A_T)$ for all $S,T\subseteq[n]$ when $A$ is an inverse $M$-matrix that becomes symmetric after a positive diagonal similarity; here $A_S$ is the principal submatrix indexed by $S$. The proof writes permanents as moments of a complex Gaussian vector and applies Ginibre's correlation inequality. An explicit counterexample shows that symmetry cannot be dropped.}{\href{https://github.com/suvrit/preprints/blob/main/preprints/perm-m-matrix/v1/perm-m-matrix-v1.pdf}{A Koteljanskii inequality for permanents}\enspace\textperiodcentered\enspace v1, 2 October 2026\enspace\textperiodcentered\enspace\href{https://arxiv.org/abs/2609.39979}{arXiv:2609.39979}}
+
+\cataloguesection{Matrix analysis}{2}
+
+\resultentry{4}{Bellman's 1959 claim on Hua--Bellman matrices}{Shows that Bellman's 1959 strengthening of Hua's results on positive definiteness of the matrices $[\det(I-A_i^*A_j)^{-\alpha}]_{ij}$, for strict contractions $A_i$, rests on an erroneous proof and is false, by an explicit example. Gives conditions under which $\det(I-A^*B)^{-\alpha}$ is a positive definite function: the known sharp condition for complex contractions, with the integer exponents below Hua's range reached by an elementary argument, and the part of Bellman's claim that survives for real symmetric contractions. Introduces a Poincar\'e-like distance on noncommuting strict contractions.}{\href{https://github.com/suvrit/preprints/blob/main/preprints/hua/v1/hua-v1.pdf}{Positive definite functions of noncommuting contractions, Hua--Bellman matrices, and a new distance metric}\enspace\textperiodcentered\enspace v1, 2 October 2026\enspace\textperiodcentered\enspace\href{https://arxiv.org/abs/2112.00056v2}{arXiv:2112.00056v2}\enspace\textperiodcentered\enspace Not AI-assisted}
+
+\cataloguesection{Complex geometry}{3}
+
+\resultentry{5}{Schur forms under decomposable curvature}{Griffiths asked in 1969 whether positive curvature of a Hermitian holomorphic vector bundle forces positivity of its characteristic forms; Du's rank-nine example shows that a strictly Griffiths-positive metric can have a top Chern form that is negative on an open set. Proves that every Schur form is weakly nonnegative wherever the curvature is decomposable, a sum of a completely positive and a completely copositive map, with no splitting assumption. The algebraic input is $\Phi_n(H)\ge0$ for Finski's double mixed discriminant of every decomposable map, from a quaternionic Gaussian determinant formula. Beyond the decomposable cone, $\Phi_k\ge0$ on every square compression of $H$ is equivalent to $\Phi_n(H+S)\ge0$ for every entanglement-breaking map $S$; this class contains indecomposable maps but is not convex for $n\ge9$, since Du's map is an average of four of its members.}{\href{https://github.com/suvrit/preprints/blob/main/preprints/qperm/v1/qperm-v1.pdf}{Weak positivity of Schur forms under decomposable curvature}\enspace\textperiodcentered\enspace v1, 8 October 2026}
+
+\end{document}
