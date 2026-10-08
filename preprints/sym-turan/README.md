@@ -23,5 +23,5 @@
 
 ---
 
-[← All preprints](../README.md)
+[← All preprints](../../README.md)
 <!-- release:end -->
