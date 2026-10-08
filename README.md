@@ -8,8 +8,8 @@
 [![arXiv: Suvrit Sra](https://img.shields.io/badge/arXiv-Suvrit%20Sra-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/search/?searchtype=author&query=Sra%2C+Suvrit)
 [![format: PDF](https://img.shields.io/badge/format-PDF-4c566a)](#layout)
 <!-- badges:start -->
-[![papers](https://img.shields.io/badge/papers-5-0b7285)](#papers)
-[![versions](https://img.shields.io/badge/versions-5-0b7285)](#papers)
+[![papers](https://img.shields.io/badge/papers-6-0b7285)](#papers)
+[![versions](https://img.shields.io/badge/versions-6-0b7285)](#papers)
 <!-- badges:end -->
 
 <sub>Every version stays available. Every released file carries an
@@ -34,6 +34,7 @@ not arXiv's.
 <!-- release:start -->
 | Paper | Latest | Released | PDF | arXiv |
 |---|---|---|---|---|
+| [**On Lin's Arithmetic–Geometric Means Conjecture for Singular Values**](preprints/linconj/) | v1 | 8 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/linconj/v1/linconj-v1.pdf) | — |
 | [**Weak positivity of Schur forms under decomposable curvature**](preprints/qperm/) | v1 | 8 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/qperm/v1/qperm-v1.pdf) | — |
 | [**Monotonicity of Turán-ratios of symmetric polynomials**](preprints/sym-turan/) | v1 | 7 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/sym-turan/v1/sym-turan-v1.pdf) | — |
 | [**A Proof of McLeod's 1959 Conjecture on Complete Homogeneous Symmetric Ratios**](preprints/mcleod-hk/) | v1 | 5 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/mcleod-hk/v1/mcleod-hk-v1.pdf) | — |

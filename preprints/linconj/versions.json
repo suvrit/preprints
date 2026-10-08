@@ -1,0 +1,17 @@
+{
+  "versions": [
+    {
+      "version": "v1",
+      "date": "2026-10-08",
+      "title": "On Lin's Arithmetic–Geometric Means Conjecture for Singular Values",
+      "pages": 5,
+      "arxiv": null,
+      "arxiv_date": null,
+      "comment": null,
+      "abstract": "Let $A$ and $B$ be positive semidefinite, and let $0\\le t\\le 1$. Lin (2017) conjectured that $\\lambda_j((1-t)A+tB)\\ge\\sigma_j^{1/2}(A^{2(1-t)}B^{2t})$ for $j=1,\\ldots,n$. The case $t=1/2$ is Drury's theorem, which answered a long-standing question of Bhatia and Kittaneh. Lin remarked that Drury's method does not seem to reach other values of $t$. We prove his conjecture for every $t\\in[0,1]$. The proof builds on Drury's argument, but replaces his block-matrix step (unique to the midpoint $t=1/2$) by an eigenvalue count based on an inertia identity and a one-variable inequality.",
+      "files": [
+        "linconj-v1.pdf"
+      ]
+    }
+  ]
+}
