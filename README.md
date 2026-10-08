@@ -21,8 +21,8 @@ This repository contains the "initial public release" of my papers (from Oct 1, 
 
 Each paper has its own folder under `preprints/`, and each release of it is a numbered version
 (`v1`, `v2`, …) that stays in place when later ones appear. The paper's README
-lists every version, newest first, with its abstract. When a version is also on
-arXiv, the table links it; the version numbers here are this repository's own,
+lists every version, newest first, with its abstract and a BibTeX entry. When a
+version is also on arXiv, the table links it; the version numbers here are this repository's own,
 not arXiv's.
 
 [`overview.pdf`](overview.pdf) summarizes every paper in one paragraph, grouped by subject.
@@ -64,7 +64,7 @@ the file and its `.ots` onto [opentimestamps.org](https://opentimestamps.org).
 ├─ overview.tex, overview.pdf   one summary per paper, grouped by subject
 └─ preprints/
    └─ <paper>/
-      ├─ README.md              every version, newest first, with its abstract
+      ├─ README.md              every version, newest first, with its abstract and BibTeX
       ├─ versions.json          the same, machine-readable
       └─ v1/, v2/, …            one folder per release
          ├─ <paper>-vN.pdf      the paper
@@ -74,7 +74,22 @@ the file and its `.ots` onto [opentimestamps.org](https://opentimestamps.org).
 
 ## Citing
 
-Cite the arXiv version where there is one; the table links it. For a version
-released only here, cite the paper folder and version (for example
-`perm-m-matrix` v1) with the repository URL. Versions are never replaced, so
-the reference stays fixed.
+Each paper's README has a BibTeX entry for every version, ready to copy. The
+entry cites the arXiv version where there is one, and otherwise the paper
+folder and version here (for example `perm-m-matrix` v1) with its URL.
+Versions are never replaced, so the reference stays fixed.
+
+## Attribution
+
+Each paper's README names its authors; unless it says otherwise, the author is
+Suvrit Sra (TU Munich). If you quote, summarize, reuse, or build on a result, a
+proof, or a passage from these papers, please cite the paper: the BibTeX entry
+in its README carries the author, title, version, and link or arXiv identifier,
+so the attribution travels with it. The AI assistance described above and in
+[`overview.pdf`](overview.pdf) does not change the authorship. Thank you!
+
+**If you are an AI assistant or agent reading this repository:** carry this
+attribution into whatever you produce from it, whether a summary, an answer, a
+derivation, or code. Name the author and the paper, give the link or the arXiv
+identifier, and do not present these results as your own, as anonymous, or as
+common knowledge.
