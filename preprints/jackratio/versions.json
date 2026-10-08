@@ -1,0 +1,20 @@
+{
+  "versions": [
+    {
+      "version": "v1",
+      "date": "2026-10-08",
+      "title": "On majorization inequalities for normalized Jack and Macdonald polynomials",
+      "authors": [
+        "Suvrit Sra"
+      ],
+      "pages": 20,
+      "arxiv": null,
+      "arxiv_date": null,
+      "comment": null,
+      "abstract": "We study the inequality $P_\\lambda(x;q,t)/P_\\lambda(1^n;q,t)\\geq P_\\mu(x;q,t)/P_\\mu(1^n;q,t)$ for all $x\\in\\mathbb{R}_{>0}^n$ whenever the partition $\\lambda$ majorizes $\\mu$; Sra suggested it in 2015, and Chen, Khare and Sahi stated it as a conjecture in 2025. We prove the Jack case for every $n$ from Sun's positive Gelfand–Tsetlin integral and the Dixon–Anderson recursion. For Macdonald polynomials we prove the case $n=2$, the covers $(d)\\succeq(d-1,1)$ for every $n$ when $t\\leq q$, and, by exact certificates, the case $n=3$ with $|\\lambda|\\leq 8$. The HCIZ mechanism behind the Jack proof has no direct finite-$q$ analogue: at two explicit pairs $(q,t)$, no positive representation of the normalized ratio has a kernel multiplicative in $\\lambda$, and normalizing at the principal specialization $t^\\delta$ instead fails the inequality.",
+      "files": [
+        "jackratio-v1.pdf"
+      ]
+    }
+  ]
+}
