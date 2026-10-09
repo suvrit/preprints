@@ -12,7 +12,7 @@
 \newcommand{\compiledate}{\number\day~\ifcase\month\or January\or February\or March\or April\or May\or June\or July\or August\or September\or October\or November\or December\fi~\number\year}
 \definecolor{muted}{gray}{0.38}
 \definecolor{linkink}{HTML}{275B59}
-\usepackage[unicode,colorlinks=true,linkcolor=linkink,urlcolor=linkink,pdfauthor={Suvrit Sra},pdftitle={Preprints: overview},pdfsubject={7 papers}]{hyperref}
+\usepackage[unicode,colorlinks=true,linkcolor=linkink,urlcolor=linkink,pdfauthor={Suvrit Sra},pdftitle={Preprints: overview},pdfsubject={9 papers}]{hyperref}
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0pt}
 \setlength{\emergencystretch}{1.2em}
@@ -24,7 +24,7 @@
 \fancyhead[L]{\footnotesize\scshape\color{linkink}Preprints}
 \fancyhead[C]{\footnotesize\color{muted}Last compiled on \compiledate}
 \fancyhead[R]{\footnotesize\scshape\color{linkink}Suvrit Sra}
-\fancyfoot[L]{\footnotesize\color{muted}7 papers}
+\fancyfoot[L]{\footnotesize\color{muted}9 papers}
 \fancyfoot[R]{\footnotesize\thepage\, /\,\pageref*{LastPage}}
 \renewcommand{\headrulewidth}{0.3pt}
 \renewcommand{\footrulewidth}{0pt}
@@ -60,7 +60,7 @@
 \vspace{8pt}
 \pgfornament[width=0.45\linewidth,color=linkink]{88}\par
 \vspace{6pt}
-{\small\itshape 7 papers\par}
+{\small\itshape 9 papers\par}
 \end{center}
 \vspace{7pt}
 {\small An overview of the papers released at \href{https://github.com/suvrit/preprints}{github.com/suvrit/preprints}. Except where marked, the mathematics in these papers was developed in sustained dialogue with an AI assistant (GPT Pro); none of the results is zero-shot. Claude Code was used extensively for writing, editing, and repository management. Results are grouped by subject; entry numbers do not indicate a ranking. Each summary is followed by the paper's title, linked to its latest timestamped PDF, together with its version and, where one exists, its arXiv identifier.\par}
@@ -94,6 +94,8 @@
 \cataloguesection{Mathematical physics}{4}
 
 \resultentry{8}{Petz's conjecture on the Kubo--Mori scalar curvature}{The paper proves Petz's 1994 conjecture that the scalar curvature of the Kubo--Mori metric on the invertible density matrices increases as the state becomes more mixed. Dittmann (2000) reduced the conjecture to the concavity of an explicit symmetric function $h$ of three positive variables, which he could support only by numerical tests; the paper proves that $h$ is strictly concave. The proof writes $h=-1/(8M)$ with $M$ positive and homogeneous of degree one, and shows that $1/M$ is a Stieltjes function along every line with positive base point and positive direction; Cauchy--Schwarz and homogeneity then give concavity, and the Stieltjes property reduces to an explicit inequality in two real variables, proved by elementary estimates for hyperbolic functions.}{\href{https://github.com/suvrit/preprints/blob/main/preprints/kubo-metric/v1/kubo-metric-v1.pdf}{A Proof of Petz's Conjecture on the Scalar Curvature of the Kubo--Mori Metric}\enspace\textperiodcentered\enspace v1, 9 October 2026}
+
+\resultentry{9}{The Gibilisco--Isola conjecture near the Kubo--Mori metric}{The paper proves the Gibilisco--Isola conjecture that the scalar curvature of the Wigner--Yanase--Dyson metric with parameter $p$ on the invertible density matrices increases under mixing for all $p$ in some interval $(1,1+\varepsilon)$, together with the mirror statement for $p\in(1-\varepsilon,1)$, with $\varepsilon>0$ independent of the dimension; the case $p\downarrow1$ is Petz's conjecture, result 8. For these $p$ the curvature is a concave function of the eigenvalues. By Dittmann's formula it suffices that one symmetric function $H_p$ of three positive variables is concave, which the paper proves by showing that $-1/H_p$ is a Stieltjes transform along every line in the positive cone, uniformly in $p$ near $1$; the uniformity near the boundary of the eigenvalue domain comes from an exact decomposition of $H_p$. The value of $\varepsilon$ is not explicit.}{\href{https://github.com/suvrit/preprints/blob/main/preprints/wyd/v1/wyd-v1.pdf}{Wigner--Yanase--Dyson Metrics Have Monotone Curvature}\enspace\textperiodcentered\enspace v1, 9 October 2026}
 
 \par\vspace{20pt}
 {\centering\pgfornament[width=3.2cm,color=linkink]{84}\par}
