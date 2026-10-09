@@ -1,0 +1,20 @@
+{
+  "versions": [
+    {
+      "version": "v1",
+      "date": "2026-10-09",
+      "title": "Wigner–Yanase–Dyson Metrics Have Monotone Curvature",
+      "authors": [
+        "Suvrit Sra"
+      ],
+      "pages": 20,
+      "arxiv": null,
+      "arxiv_date": null,
+      "comment": null,
+      "abstract": "Gibilisco and Isola conjectured that the scalar curvature of the Wigner–Yanase–Dyson metric with parameter $p$ on the invertible density matrices increases under mixing for all $p$ in some interval $(1,1+\\varepsilon)$; the case $p\\downarrow1$ is Petz's conjecture for the Kubo–Mori metric (resolved in a companion paper). We prove that for $p\\in(1-\\varepsilon,1+\\varepsilon)$, with $\\varepsilon>0$ independent of the dimension, the scalar curvature is a concave function of the eigenvalues and hence increases under mixing. By Dittmann's formula it suffices to prove that one symmetric function $H_p$ of three positive variables is concave, which we do by showing that $-1/H_p$ is a Stieltjes transform along every line in the positive cone, uniformly in $p$ near $1$. The value of $\\varepsilon$ is not explicit.",
+      "files": [
+        "wyd-v1.pdf"
+      ]
+    }
+  ]
+}
