@@ -1,0 +1,20 @@
+{
+  "versions": [
+    {
+      "version": "v1",
+      "date": "2026-10-10",
+      "title": "Sharp order-four sign regularity of a Jacobi theta kernel",
+      "authors": [
+        "Suvrit Sra"
+      ],
+      "pages": 11,
+      "arxiv": null,
+      "arxiv_date": null,
+      "comment": null,
+      "abstract": "We prove that the Hankel kernel $\\Phi(\\sqrt{x+y})$, where $\\Phi$ is the Jacobi theta kernel whose cosine transform is the Riemann $\\Xi$-function, is strictly reverse-regular through order four. The order is sharp: an interval enclosure of the fifth Hankel–Wronskian at $t=10^{-2}$ shows failure at order five. The third-order condition is Csordas's conjecture that $s'^2-ss''$ is strictly log-concave for $s(t)=\\Phi(\\sqrt t)$. The proof reduces the kernel minors to Wronskian signs and establishes the signs by exact polynomial estimates for $t\\ge1$ and interval arithmetic on $[0,1]$. The fourth-order sign also yields three positive iterates of $s\\mapsto s'^2-ss''$, the triple Turán inequalities for the normalized Taylor coefficients of $\\Xi$, and quartic integral inequalities for $\\Xi$.",
+      "files": [
+        "csordas-v1.pdf"
+      ]
+    }
+  ]
+}

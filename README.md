@@ -8,8 +8,8 @@
 [![arXiv: Suvrit Sra](https://img.shields.io/badge/arXiv-Suvrit%20Sra-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/search/?searchtype=author&query=Sra%2C+Suvrit)
 [![format: PDF](https://img.shields.io/badge/format-PDF-4c566a)](#layout)
 <!-- badges:start -->
-[![papers](https://img.shields.io/badge/papers-9-0b7285)](#papers)
-[![versions](https://img.shields.io/badge/versions-9-0b7285)](#papers)
+[![papers](https://img.shields.io/badge/papers-10-0b7285)](#papers)
+[![versions](https://img.shields.io/badge/versions-10-0b7285)](#papers)
 <!-- badges:end -->
 
 <sub>Every version stays available. Every released file carries an
@@ -34,6 +34,7 @@ not arXiv's.
 <!-- release:start -->
 | Paper | Latest | Released | PDF | arXiv |
 |---|---|---|---|---|
+| [**Sharp order-four sign regularity of a Jacobi theta kernel**](preprints/csordas/) | v1 | 10 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/csordas/v1/csordas-v1.pdf) | — |
 | [**A Proof of Petz's Conjecture on the Scalar Curvature of the Kubo–Mori Metric**](preprints/kubo-metric/) | v1 | 9 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/kubo-metric/v1/kubo-metric-v1.pdf) | — |
 | [**Wigner–Yanase–Dyson Metrics Have Monotone Curvature**](preprints/wyd/) | v1 | 9 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/wyd/v1/wyd-v1.pdf) | — |
 | [**On majorization inequalities for normalized Jack and Macdonald polynomials**](preprints/jackratio/) | v1 | 8 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/jackratio/v1/jackratio-v1.pdf) | — |
