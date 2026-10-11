@@ -17,7 +17,7 @@ OpenTimestamps proof made on the day it was released.</sub>
 
 </div>
 
-This repository contains the "initial public release" of my papers (from Oct 1, 2026 onwards) and supporting material for those papers. Not everything here will be on arXiv simultaneously (either due to their rate limits, or simply because the work was not arXiv-worthy yet); some works may eventually make it to conferences or journals if I find time to go through that process. My primary aim in sharing these works is the usual: dissemination of information in the hope that somebody else also finds it interesting and/or useful; and of course, sharing the joy of mathematics; merely because some of the work has AI assistance doesn't remove any of that joy or value. 
+This repository contains the "initial public release" of my papers (from Oct 1, 2026 onwards) and supporting material for those papers. These results have been in preparation for a few years, some with AI assistance and some without; I am now finally writing them up, completing them, and sharing them here. Not everything here will be on arXiv simultaneously (either due to their rate limits, or simply because the work was not arXiv-worthy yet); some works may eventually make it to conferences or journals if I find time to go through that process. My primary aim in sharing these works is the usual: dissemination of information in the hope that somebody else also finds it interesting and/or useful; and of course, sharing the joy of mathematics; merely because some of the work has AI assistance doesn't remove any of that joy or value. 
 
 Each paper has its own folder under `preprints/`, and each release of it is a numbered version
 (`v1`, `v2`, …) that stays in place when later ones appear. The paper's README
