@@ -1,0 +1,20 @@
+{
+  "versions": [
+    {
+      "version": "v1",
+      "date": "2026-10-13",
+      "title": "Tsallis Metrics on Density Matrices via the S-Divergence",
+      "authors": [
+        "Suvrit Sra"
+      ],
+      "pages": 14,
+      "arxiv": null,
+      "arxiv_date": null,
+      "comment": null,
+      "abstract": "We study symmetrized divergences induced by centroids of $\\alpha$-Tsallis relative entropies between density matrices $\\sigma$ and $\\rho$; up to scaling, the induced divergence equals $|2-\\|\\rho^\\alpha+\\sigma^\\alpha\\|_{1/\\alpha}|$. Earlier work (S. Sra, \"Metrics induced by Jensen–Shannon and related divergences on positive definite matrices,\" Linear Algebra Appl., 2021) studied such divergences and metrics induced by them. That paper allowed centroids to range over the positive definite cone, while we require that the centroid itself be a density matrix. This (more natural) choice makes the metricity in this paper considerably stronger than that of the aforementioned paper. Specifically, we prove that $|2-\\|\\rho^\\alpha+\\sigma^\\alpha\\|_{1/\\alpha}|^{1/2}$ is a metric on density matrices for $1/2\\le\\alpha\\le2$, $\\alpha\\ne1$. For $\\alpha<1$, the proof uses a new four-point theorem for the S-divergence that might be of independent interest. For $\\alpha>1$, we first prove the endpoint $\\alpha=2$, and then transfer it to the other orders by a tensoring trick.",
+      "files": [
+        "tsallis-v1.pdf"
+      ]
+    }
+  ]
+}

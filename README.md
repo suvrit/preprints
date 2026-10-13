@@ -8,8 +8,8 @@
 [![arXiv: Suvrit Sra](https://img.shields.io/badge/arXiv-Suvrit%20Sra-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/search/?searchtype=author&query=Sra%2C+Suvrit)
 [![format: PDF](https://img.shields.io/badge/format-PDF-4c566a)](#layout)
 <!-- badges:start -->
-[![papers](https://img.shields.io/badge/papers-11-0b7285)](#papers)
-[![versions](https://img.shields.io/badge/versions-11-0b7285)](#papers)
+[![papers](https://img.shields.io/badge/papers-12-0b7285)](#papers)
+[![versions](https://img.shields.io/badge/versions-12-0b7285)](#papers)
 <!-- badges:end -->
 
 <sub>Every version stays available. Every released file carries an
@@ -34,6 +34,7 @@ not arXiv's.
 <!-- release:start -->
 | Paper | Latest | Released | PDF | arXiv |
 |---|---|---|---|---|
+| [**Tsallis Metrics on Density Matrices via the S-Divergence**](preprints/tsallis/) | v1 | 13 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/tsallis/v1/tsallis-v1.pdf) | — |
 | [**The $p$-Bures–Wasserstein distance via $3\times3$ block matrices (with application to $p$-Bures–Wasserstein barycenters)**](preprints/pbures/) | v1 | 11 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/pbures/v1/pbures-v1.pdf) | — |
 | [**Sharp order-four sign regularity of a Jacobi theta kernel**](preprints/csordas/) | v1 | 10 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/csordas/v1/csordas-v1.pdf) | — |
 | [**A Proof of Petz's Conjecture on the Scalar Curvature of the Kubo–Mori Metric**](preprints/kubo-metric/) | v1 | 9 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/kubo-metric/v1/kubo-metric-v1.pdf) | — |
