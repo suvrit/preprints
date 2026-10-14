@@ -7,6 +7,7 @@ Suvrit Sra
 
 [![latest version](https://img.shields.io/badge/latest-v1-0b7285)](v1/)
 [![PDF](https://img.shields.io/badge/PDF-download-0b7285)](v1/pbures-v1.pdf)
+[![arXiv](https://img.shields.io/badge/arXiv-2610.15889v1-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2610.15889v1)
 [![OpenTimestamps proof](https://img.shields.io/badge/timestamp-OpenTimestamps-f7931a?logo=bitcoin&logoColor=white)](v1/pbures-v1.pdf.ots)
 
 <sub>20 pages · v1 released 11 October 2026 · 1 version</sub>
@@ -15,7 +16,7 @@ Suvrit Sra
 
 ## v1 — 11 October 2026
 
-**The $p$-Bures–Wasserstein distance via $3\times3$ block matrices (with application to $p$-Bures–Wasserstein barycenters)** · 20 pages
+**The $p$-Bures–Wasserstein distance via $3\times3$ block matrices (with application to $p$-Bures–Wasserstein barycenters)** · 20 pages · also on arXiv as [2610.15889v1](https://arxiv.org/abs/2610.15889v1) (11 October 2026)
 
 | File | Timestamp |
 |---|---|
@@ -28,12 +29,14 @@ Suvrit Sra
 
 ```bibtex
 @misc{sra2026pbures-v1,
-  author       = {Suvrit Sra},
-  title        = {{The $p$-Bures--Wasserstein distance via $3\times3$ block matrices (with application to $p$-Bures--Wasserstein barycenters)}},
-  year         = {2026},
-  month        = oct,
-  howpublished = {Preprint, \url{https://github.com/suvrit/preprints/tree/main/preprints/pbures/v1}},
-  note         = {Version v1, released 11 October 2026},
+  author        = {Suvrit Sra},
+  title         = {{The $p$-Bures--Wasserstein distance via $3\times3$ block matrices (with application to $p$-Bures--Wasserstein barycenters)}},
+  year          = {2026},
+  month         = oct,
+  howpublished  = {\url{https://arxiv.org/abs/2610.15889v1}},
+  eprint        = {2610.15889v1},
+  archiveprefix = {arXiv},
+  note          = {Also released as pbures v1 (11 October 2026) at \url{https://github.com/suvrit/preprints/tree/main/preprints/pbures/v1}},
 }
 ```
 

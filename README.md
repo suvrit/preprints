@@ -35,7 +35,7 @@ not arXiv's.
 | Paper | Latest | Released | PDF | arXiv |
 |---|---|---|---|---|
 | [**Tsallis Metrics on Density Matrices via the S-Divergence**](preprints/tsallis/) | v1 | 13 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/tsallis/v1/tsallis-v1.pdf) | — |
-| [**The $p$-Bures–Wasserstein distance via $3\times3$ block matrices (with application to $p$-Bures–Wasserstein barycenters)**](preprints/pbures/) | v1 | 11 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/pbures/v1/pbures-v1.pdf) | — |
+| [**The $p$-Bures–Wasserstein distance via $3\times3$ block matrices (with application to $p$-Bures–Wasserstein barycenters)**](preprints/pbures/) | v1 | 11 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/pbures/v1/pbures-v1.pdf) | [2610.15889v1](https://arxiv.org/abs/2610.15889v1) |
 | [**Sharp order-four sign regularity of a Jacobi theta kernel**](preprints/csordas/) | v1 | 10 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/csordas/v1/csordas-v1.pdf) | — |
 | [**A Proof of Petz's Conjecture on the Scalar Curvature of the Kubo–Mori Metric**](preprints/kubo-metric/) | v1 | 9 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/kubo-metric/v1/kubo-metric-v1.pdf) | — |
 | [**Wigner–Yanase–Dyson Metrics Have Monotone Curvature**](preprints/wyd/) | v1 | 9 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/wyd/v1/wyd-v1.pdf) | — |

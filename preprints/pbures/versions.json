@@ -8,8 +8,8 @@
         "Suvrit Sra"
       ],
       "pages": 20,
-      "arxiv": null,
-      "arxiv_date": null,
+      "arxiv": "2610.15889v1",
+      "arxiv_date": "2026-10-11",
       "comment": null,
       "abstract": "We study the $p$-Bures–Wasserstein distance $D_p(A,B)=(\\mathrm{tr}\\,A^p+\\mathrm{tr}\\,B^p-2\\|A^{1/2}B^{1/2}\\|_p^p)^{1/2}$ on positive semidefinite matrices; it equals the Bures–Wasserstein distance for $p=1$, and the Hilbert–Schmidt distance for $p=2$. We prove that $D_p$ is a metric for every $1\\le p\\le2$, by proving a stronger 2014 conjecture of Lin and van den Driessche on $3\\times3$ block matrices. Our main tool is a partition inequality for Schatten norms, proved by complex interpolation. We also characterize Fréchet means for $D_p$ by a fixed-point equation and prove geometric convergence of the associated iteration.",
       "files": [
