@@ -1,0 +1,20 @@
+{
+  "versions": [
+    {
+      "version": "v1",
+      "date": "2026-10-15",
+      "title": "A Spectral Blakley–Roy Inequality for Nonnegative Matrices",
+      "authors": [
+        "Suvrit Sra"
+      ],
+      "pages": 10,
+      "arxiv": null,
+      "arxiv_date": null,
+      "comment": null,
+      "abstract": "Let $A$ and $B$ be real symmetric matrices with nonnegative entries. We prove that $\\rho(AB)^k\\le\\rho(A^kB^k)$ for the spectral radius $\\rho(\\cdot)$ and every integer $k\\ge1$; for $B=uu^T$ this is the Blakley–Roy inequality. We prove it via the more general inequality $\\|(AB)^m\\|^{k}\\le\\|(A^kB^k)^m\\|$ in the spectral norm, valid for all integers $k,m\\ge1$. The even exponents case follows from standard tools; for odd exponents $k=2r+1$ the claim follows via the more general product inequality $(u^TC_1\\cdots C_tv)^k\\le(u^Tu)^r(v^Tv)^r\\,u^TC_1^k\\cdots C_t^kv$ for nonnegative symmetric $C_i$ and nonnegative $u,v$. Its proof is an entropy argument on paths that traverse each edge $k$ times, back and forth.",
+      "files": [
+        "pourya-rho-v1.pdf"
+      ]
+    }
+  ]
+}
