@@ -1,0 +1,20 @@
+{
+  "versions": [
+    {
+      "version": "v1",
+      "date": "2026-10-19",
+      "title": "Beyond Small Balls: A Determinant Inequality for Functions of Matrix Gaussian Series",
+      "authors": [
+        "Suvrit Sra"
+      ],
+      "pages": 30,
+      "arxiv": null,
+      "arxiv_date": null,
+      "comment": null,
+      "abstract": "We prove a functional extension of Gaussian operator-norm small-ball inequalities. Let $X=\\sum_{i=1}^d g_iB_i$, where $g\\sim N(0,I_d)$, the matrices $B_i\\in\\mathbb{R}^{d\\times d}$ are symmetric, and $\\sum_iB_i^2\\preceq I_d$. For every even log-concave $f\\colon\\mathbb{R}\\to[0,\\infty)$, we obtain $\\mathbb{E}\\det f(X)\\ge(\\mathbb{E} f(\\kappa G))^d$ at dilation $\\kappa=13/5$, where $G$ is standard Gaussian. The proof reduces each function to one small-ball estimate, obtained from matrix-weighted Poincaré inequalities, and controls the rest by averages over the spectrum. We give an equivalent entropy formulation. An explicit counterexample shows that no universal dilation below $\\sqrt{\\pi/2}$ can work; we conjecture that this value is optimal.",
+      "files": [
+        "gsd-v1.pdf"
+      ]
+    }
+  ]
+}
