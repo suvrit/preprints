@@ -8,8 +8,8 @@
 [![arXiv: Suvrit Sra](https://img.shields.io/badge/arXiv-Suvrit%20Sra-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/search/?searchtype=author&query=Sra%2C+Suvrit)
 [![format: PDF](https://img.shields.io/badge/format-PDF-4c566a)](#layout)
 <!-- badges:start -->
-[![papers](https://img.shields.io/badge/papers-14-0b7285)](#papers)
-[![versions](https://img.shields.io/badge/versions-14-0b7285)](#papers)
+[![papers](https://img.shields.io/badge/papers-15-0b7285)](#papers)
+[![versions](https://img.shields.io/badge/versions-15-0b7285)](#papers)
 <!-- badges:end -->
 
 <sub>Every version stays available. Every released file carries an
@@ -34,6 +34,7 @@ not arXiv's.
 <!-- release:start -->
 | Paper | Latest | Released | PDF | arXiv |
 |---|---|---|---|---|
+| [**On some positivity properties of the Riemann $\Xi$ function**](preprints/riem-xi/) | v1 | 20 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/riem-xi/v1/riem-xi-v1.pdf) | — |
 | [**Beyond Small Balls: A Determinant Inequality for Functions of Matrix Gaussian Series**](preprints/gsd/) | v1 | 19 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/gsd/v1/gsd-v1.pdf) | — |
 | [**A Spectral Blakley–Roy Inequality for Nonnegative Matrices**](preprints/pourya-rho/) | v1 | 15 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/pourya-rho/v1/pourya-rho-v1.pdf) | — |
 | [**Tsallis Metrics on Density Matrices via the S-Divergence**](preprints/tsallis/) | v1 | 13 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/tsallis/v1/tsallis-v1.pdf) | — |

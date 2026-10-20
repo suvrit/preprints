@@ -1,0 +1,11 @@
+PASS: total counting slack < 3.934
+PASS: count at e < 4
+PASS: main counting term at e > -1
+PASS: retained-zero epsilon_100 < 1
+PASS: reciprocal-square tail bound at 100 < 1
+PASS: high-anchor count margin at 1000 > 21
+PASS: log(1000/(8*pi)) > 3
+PF approximation total variation upper bound = [0.0000000044594450106898986849416714039702344293791062632052037746201934924, 0.0000000044594450106898986849416714039702344293791062632052037746201952311]
+PASS: PF approximation error < 4.5e-9
+
+All scalar checks passed. Analytic proofs and external zero verification remain separate inputs.

@@ -1,0 +1,45 @@
+PASS: conjugate-pair quartic and coefficient 2((x-a)^2-b^2)
+PASS: conjugate-pair logarithmic second derivative
+PASS: generalized Laguerre generating coefficient n=0
+PASS: tensor-square sign and factorial n=0
+PASS: generalized Laguerre generating coefficient n=1
+PASS: tensor-square sign and factorial n=1
+PASS: generalized Laguerre generating coefficient n=2
+PASS: tensor-square sign and factorial n=2
+PASS: generalized Laguerre generating coefficient n=3
+PASS: tensor-square sign and factorial n=3
+PASS: generalized Laguerre generating coefficient n=4
+PASS: tensor-square sign and factorial n=4
+PASS: generalized Laguerre generating coefficient n=5
+PASS: tensor-square sign and factorial n=5
+PASS: generalized Laguerre generating coefficient n=6
+PASS: tensor-square sign and factorial n=6
+PASS: conjugated derivative identity k=0
+PASS: conjugated derivative identity k=1
+PASS: conjugated derivative identity k=2
+PASS: conjugated derivative identity k=3
+PASS: conjugated derivative identity k=4
+PASS: conjugated derivative identity k=5
+PASS: conjugated derivative identity k=6
+PASS: conjugated derivative identity k=7
+PASS: conjugated derivative identity k=8
+PASS: chain rule for L1[Xi]/Xi^2
+PASS: small-time gamma-convolution moment k=0
+PASS: small-time gamma-convolution moment k=1
+PASS: small-time gamma-convolution moment k=2
+PASS: small-time gamma-convolution moment k=3
+PASS: small-time gamma-convolution moment k=4
+PASS: small-time gamma-convolution moment k=5
+PASS: small-time gamma-convolution moment k=6
+PASS: small-time gamma-convolution moment k=7
+PASS: small-time gamma-convolution moment k=8
+PASS: small-time gamma-convolution moment k=9
+PASS: Hermite-Laguerre normalization n=0
+PASS: Hermite-Laguerre normalization n=1
+PASS: Hermite-Laguerre normalization n=2
+PASS: Hermite-Laguerre normalization n=3
+PASS: Hermite-Laguerre normalization n=4
+PASS: Hermite-Laguerre normalization n=5
+PASS: Hermite-Laguerre normalization n=6
+PASS: absolute Jacobian for (s,t)=(u+v,u-v) is 2
+All exact finite algebra checks passed.
