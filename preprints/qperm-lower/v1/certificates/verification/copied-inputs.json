@@ -1,0 +1,192 @@
+[
+  {
+    "path": "README.md",
+    "sha256": "e8227e17eb7b28e022290ca50bd5522a0aa3a3cd48f927a5495c0a2f085b364e",
+    "bytes": 2281
+  },
+  {
+    "path": "UNIVERSAL_BOUNDS_AND_METHOD.tex",
+    "sha256": "4f6a4285533f15aaa79a26c8c14cbda9ab6d35b620b3d632972d42b2d0208900",
+    "bytes": 12685
+  },
+  {
+    "path": "compile_bounds.py",
+    "sha256": "912ee8f2e55582dc1e7535d3dda56af2d5e66e551fe36dba6678980d9b5b669a",
+    "bytes": 7640
+  },
+  {
+    "path": "finite/FINITE_EXTENSION.md",
+    "sha256": "ba01c00b924c7a855ff30ac264b820fb6848cb821659f38db39d52694783fdbd",
+    "bytes": 3488
+  },
+  {
+    "path": "finite/INHERITED_MIXED_CONTRACTIONS.md",
+    "sha256": "0c4cd6dfb42cc057e09434e521ca51efa5e8f4c3dfc3879bf2aa30eb33390880",
+    "bytes": 21322
+  },
+  {
+    "path": "finite/PROOF.md",
+    "sha256": "80bfeead4c47c52fe1cf9a1bca0b66bc3b3a3f82d012a5dc95df374820d3956e",
+    "bytes": 22146
+  },
+  {
+    "path": "finite/certificates/dual_10.json",
+    "sha256": "d0222257813f3fc17355ca18d790c6d97e8cce70d0be730c39c6313a01c3748c",
+    "bytes": 5151
+  },
+  {
+    "path": "finite/certificates/dual_11.json",
+    "sha256": "661243ace57b4d6b4312c7ffe172b318e9fa49fcdef0ed6fae5ecda8b7a67b22",
+    "bytes": 7359
+  },
+  {
+    "path": "finite/certificates/dual_12.json",
+    "sha256": "0b8490e6593f66177cd8dcb72b3cd7260bbec6f8fe081892759206d017b80f85",
+    "bytes": 11005
+  },
+  {
+    "path": "finite/certificates/dual_13.json",
+    "sha256": "bd7e40e33e1fa605bc5d5a8660c8af720534329ccac212d9d2291381322d0274",
+    "bytes": 17154
+  },
+  {
+    "path": "finite/certificates/dual_14.json",
+    "sha256": "0bdee669b2b5f12a0979d577d1ec136fb4abf9d7d23674d8907150685febf9db",
+    "bytes": 24740
+  },
+  {
+    "path": "finite/certificates/dual_15.json",
+    "sha256": "debc71da46112193b514c6165ddb269c54048509d4d79cb3b199cdcecdbdcdc6",
+    "bytes": 36193
+  },
+  {
+    "path": "finite/certificates/dual_16.json",
+    "sha256": "823c0768531d002ba3200e749ba000d8d86152d9edd2a7d4e7db1dccd7bd46f8",
+    "bytes": 52413
+  },
+  {
+    "path": "finite/certificates/dual_17.json",
+    "sha256": "2fae4641d1b5bd2f83ce57d59d4e71ee00793642ef47d7014ec816ff60cf7483",
+    "bytes": 74610
+  },
+  {
+    "path": "finite/certificates/dual_18.json",
+    "sha256": "c0a3ca9107335fe8dec2cba23d3303fd9e8129b72733fbb4e0b12e69ba946ba7",
+    "bytes": 106098
+  },
+  {
+    "path": "finite/certificates/dual_8.json",
+    "sha256": "e3d95bb06ca9abed7623b04032c2e84360c328013e6a255d7d9f5ab54e78f5e1",
+    "bytes": 2437
+  },
+  {
+    "path": "finite/certificates/dual_9.json",
+    "sha256": "a9cf48fddfaf7779e8bfc8023ce96c9a55edd4e259badf79f175acb31b10c7dc",
+    "bytes": 3489
+  },
+  {
+    "path": "finite/certificates/recursive_cert_4.json",
+    "sha256": "f1dd56491776d9791402bf5d0d582e9d4d7e93ee162a5fad7cdb986ced15f4c0",
+    "bytes": 1824
+  },
+  {
+    "path": "finite/certificates/recursive_cert_5.json",
+    "sha256": "f4ec916a00f4fcda21f3dacd2ab165f4282693e03383362e810b15a5e72d8af9",
+    "bytes": 3744
+  },
+  {
+    "path": "finite/certificates/recursive_cert_6.json",
+    "sha256": "9c6a8f794ae2fdb4e7eb00bd5aaa269741e4e5d1cbea6ff040d385b97e84cb88",
+    "bytes": 8989
+  },
+  {
+    "path": "finite/certificates/recursive_cert_7.json",
+    "sha256": "cf862f15f78c8ab356cc01ca77bda6a5cbfd34e619379a56ae700579dda492a5",
+    "bytes": 19443
+  },
+  {
+    "path": "finite/checks/fast_adapter.py",
+    "sha256": "bcd4b1657ca3e2e633ac08d016dd185b18cba80be327ddfe1a54cdcb90d28c32",
+    "bytes": 2153
+  },
+  {
+    "path": "finite/checks/mixed_model.py",
+    "sha256": "b02085c99451915ed93050c47aa4f6c98cd80a8d6afbce5fb5edffcddee89018",
+    "bytes": 3295
+  },
+  {
+    "path": "finite/checks/radial_exact.py",
+    "sha256": "9a7eab8b4b7c3c9771736ce02f6ffd79232ba665e310f7aa1dff591787ef79bf",
+    "bytes": 1716
+  },
+  {
+    "path": "finite/checks/radial_schur.py",
+    "sha256": "b20a65ac3ca05a148eb66aefe2c3e63286614a9d747a303bea8cfe5f616cdf4e",
+    "bytes": 3429
+  },
+  {
+    "path": "finite/checks/sparse_extend.py",
+    "sha256": "776dc5d7949c38068ffc02d5798a03cdc802a110b0d2374d4f5c7b4a7036efe2",
+    "bytes": 5321
+  },
+  {
+    "path": "finite/checks/spectral_model.py",
+    "sha256": "130ae2732c2608fecdbda6b81975ec86778094dcb171e99ee5ea58a58238fc43",
+    "bytes": 4213
+  },
+  {
+    "path": "finite/checks/verify_all.py",
+    "sha256": "df8c72d04c16d58de0f508fb54c688cf3f01f6811b405ebd3a42251dcec4f316",
+    "bytes": 2996
+  },
+  {
+    "path": "structure/README.md",
+    "sha256": "c2e7efe72882c93b8ac86d80fd051b206cc07c547155bbf12cfc7d7466d16a52",
+    "bytes": 1937
+  },
+  {
+    "path": "structure/verify_fixed_core.py",
+    "sha256": "7e27275071bba7b634adf0bd0ce1180e1e8c24550391f100a4e3bb02dfda228e",
+    "bytes": 4870
+  },
+  {
+    "path": "structure/verify_independent.py",
+    "sha256": "7c008335b9a36ad908977b3fed832cd5811b2c70a5422b9c20ae4df73377d4bb",
+    "bytes": 4629
+  },
+  {
+    "path": "structure/verify_rational.py",
+    "sha256": "b3961f6733ec22764c2de9b6d722c3c6385f1bc8b7e221b891d103b35d949678",
+    "bytes": 6484
+  },
+  {
+    "path": "transport/transport_general.md",
+    "sha256": "a77ff500a7a166683e7e6468a135d60335e73ee4f6e166d9bc664ea041ab465d",
+    "bytes": 7588
+  },
+  {
+    "path": "transport/verify_transport_general.py",
+    "sha256": "20e6591fb90b77b9232419e77bdc04e59f432135a7369c579c6ff5c4155bbd70",
+    "bytes": 6109
+  },
+  {
+    "path": "witnesses/asymptotic_agents/exterior/verify_stable_tuple.py",
+    "sha256": "f99a60a25a6e793c78ead99a0b9843ab1e3c9014bb3e3b3f394cc93f2f6941e3",
+    "bytes": 2947
+  },
+  {
+    "path": "witnesses/asymptotic_agents/padding/check_extension.py",
+    "sha256": "9532e29b052e1b604eaf081c6449f1a761f02d2582210e823ea51d96e355ae6a",
+    "bytes": 2316
+  },
+  {
+    "path": "witnesses/asymptotic_agents/padding/cp_summand_anisotropic.py",
+    "sha256": "d45510e802cd4ed13bb203b03af13694e58e40c016dbed7b8a100e3fb989e889",
+    "bytes": 2055
+  },
+  {
+    "path": "witnesses/polarization_result/verify.py",
+    "sha256": "f4bb08f53c384ef12c6b10cef7f63557f3e0deb15b15fdda0554a8ed243da45d",
+    "bytes": 5128
+  }
+]

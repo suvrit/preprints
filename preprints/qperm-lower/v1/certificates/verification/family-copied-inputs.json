@@ -1,0 +1,62 @@
+[
+  {
+    "source_relative_to_reproducibility": "coherent9/verify_polynomial.py",
+    "release_path": "families/coherent9/verify_polynomial.py",
+    "sha256": "183e0c2b3e7adae5631261e77ac0713cc7a7cfc9ad0079776a7ee1730231edfc"
+  },
+  {
+    "source_relative_to_reproducibility": "coherent9/verify_input_order.py",
+    "release_path": "families/coherent9/verify_input_order.py",
+    "sha256": "22611fa7e6a9ae7505d40468e0140b051a51f15282b0cb784f24355be45044c1"
+  },
+  {
+    "source_relative_to_reproducibility": "coherent9/PROOFS.md",
+    "release_path": "families/coherent9/PROOFS.md",
+    "sha256": "9a568f63fc4bac8eac586ad90b14aed4fc61a2b61fe4f5c2dc09b47f6db6d588"
+  },
+  {
+    "source_relative_to_reproducibility": "coherent9/README.md",
+    "release_path": "families/coherent9/README.md",
+    "sha256": "57fa2d0dceb9d010db36f60887e7b6250f4cdddd869651547cfdd7e70c820812"
+  },
+  {
+    "source_relative_to_reproducibility": "coherence_descent/checks/rank8_family.py",
+    "release_path": "families/coherence_descent/checks/rank8_family.py",
+    "sha256": "9a6376a7214dee37f07af6dce43ebee8504341e0ae6d52ddc5ab24e715e2d980"
+  },
+  {
+    "source_relative_to_reproducibility": "coherence_descent/checks/rank8_certificate.py",
+    "release_path": "families/coherence_descent/checks/rank8_certificate.py",
+    "sha256": "26b436b7165eee035db433ec572a37d74b5ed8a0a4a346e12d05ed4499979373"
+  },
+  {
+    "source_relative_to_reproducibility": "coherence_descent/checks/verify_descent.py",
+    "release_path": "families/coherence_descent/checks/verify_descent.py",
+    "sha256": "e25565cee1fc95b67b4ce435d9eeacf411cbc67bb1df697f1e81322adc872abf"
+  },
+  {
+    "source_relative_to_reproducibility": "coherence_descent/checks/verify_input_order.py",
+    "release_path": "families/coherence_descent/checks/verify_input_order.py",
+    "sha256": "22611fa7e6a9ae7505d40468e0140b051a51f15282b0cb784f24355be45044c1"
+  },
+  {
+    "source_relative_to_reproducibility": "coherence_descent/checks/compression_scan.py",
+    "release_path": "families/coherence_descent/checks/compression_scan.py",
+    "sha256": "d3d6cea31d02851d8a5ed529ea53e626b6cad230011199599fb0517c2121ff85"
+  },
+  {
+    "source_relative_to_reproducibility": "coherence_descent/checks/pinching_checks.py",
+    "release_path": "families/coherence_descent/checks/pinching_checks.py",
+    "sha256": "6f76da8dc156ec4120e7d52bf28c3e18884c518102fe2da150a3c31323405123"
+  },
+  {
+    "source_relative_to_reproducibility": "coherence_descent/PROOFS.md",
+    "release_path": "families/coherence_descent/PROOFS.md",
+    "sha256": "5f9d7d39e11567d3500c4241e4c53b3a690383f125335ad8ec584853fd285632"
+  },
+  {
+    "source_relative_to_reproducibility": "coherence_descent/README.md",
+    "release_path": "families/coherence_descent/README.md",
+    "sha256": "3fc2094754fa6e6b523774fbdf039135febc9956c743a321ad88e2b8529fa9a4"
+  }
+]

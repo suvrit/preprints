@@ -1,0 +1,330 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,booktabs,hyperref}
+\newtheorem{theorem}{Theorem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newcommand{\D}{\mathscr D}
+\newcommand{\T}{\mathscr T}
+\newcommand{\R}{\mathbb R}
+\newcommand{\Q}{\mathbb Q}
+\title{Universal rational lower bounds from dimension eight\\and an exact method for improving them}
+\author{Verified research note}
+\date{11 October 2026}
+\begin{document}
+\maketitle
+
+Let $H:M_n(\mathbb C)\to M_n(\mathbb C)$ be complex linear, ordinary positive,
+unital and trace preserving. Define
+\[
+ \Phi_n(H)=\frac1{n!}\det(\partial_X)\det H(X).
+\]
+The entries of $X$ are independent complex variables. Every bound in this
+note is uniform over all such maps; no additional parameter of $H$ is fixed.
+
+\section{The main bound and the slightly tighter refinements}
+\begin{theorem}[One formula throughout $n\ge8$]
+For every positive bistochastic map $H$,
+\[
+ \boxed{\Phi_n(H)\ge-\frac{n}{n^2+6n+39}\qquad(n\ge8).}
+\]
+For $n\ge17$, the following slightly tighter bound is available:
+\[
+ \boxed{\Phi_n(H)\ge-\frac{n-7}{n^2-n+6}.}
+\]
+For $n\ge17$, one can further replace the constant $6$ by
+\[
+ K_{17}=\frac{32068818512}{5176217579}=6.195415479\ldots
+\]
+in the expression
+\[
+ h_n(K)=-\frac{n-1-K}{n(n-1)+K}.
+\]
+The additional certified rank-eighteen calculation in this note gives
+$K_{18}=32532964294/5171460901=6.290865369\ldots$ for $n\ge18$.
+\end{theorem}
+
+\begin{proof}
+The exact finite dual certificates in dimensions $8,\ldots,16$ dominate
+$-n/(n^2+6n+39)$. Their values are listed below, and the comparison uses
+rational arithmetic. The rank-sixteen certificate is at least $-3/82$.
+Its exact dimension-transport certificate gives $h_n(6)$ for every $n\ge17$.
+The all-dimensional comparison is
+\[
+ h_n(6)+\frac{n}{n^2+6n+39}
+ =\frac{9n+273}{(n^2-n+6)(n^2+6n+39)}>0.
+\]
+The rank-seventeen seed and its transport certificate give the final
+refinement. The identity $h_k(K(k,\gamma_k))=\gamma_k$ supplies the seed
+dimension itself: transport from $k+1$ therefore gives a combined range
+$n\ge k$, with no gap. The same observation applies to the new rank-eighteen
+refinement. The finite and transport certificates are included in the package.
+\end{proof}
+
+\begin{center}
+\begin{tabular}{rrrrrr}
+\toprule
+$n$&8&9&10&11&12\\
+\midrule
+floor&$-.05274023$&$-.05064282$&$-.04791679$&$-.04573151$&$-.04338172$\\
+\bottomrule
+\end{tabular}
+\end{center}
+\begin{center}
+\begin{tabular}{rrrrrr}
+\toprule
+$n$&13&14&15&16&17\\
+\midrule
+floor&$-.0414257677$&$-.0394550826$&$-.0379279304$&$-.0365074575$&$-.0352435158$\\
+\bottomrule
+\end{tabular}
+\end{center}
+The terminating decimals denote exact rational lower certificates. They are
+not asserted to equal the optimum over maps. The main formula is a convenient
+consolidation of these stronger finite results and the transport theorem;
+it is not a new optimum of the underlying relaxation.
+
+\section{The theorem that turns finite improvements into universal ones}
+\begin{theorem}[Dimension transport]
+Suppose $k\ge3$ and $\gamma\in[-1/k,0]$ satisfy
+$\Phi_k(G)\ge\gamma$ for every positive bistochastic $G:M_k\to M_k$.
+Put
+\[
+ K(k,\gamma)=\frac{(k-1)(1+k\gamma)}{1-\gamma}.
+\]
+Then every positive bistochastic map in every dimension $n\ge k+3$ satisfies
+\[
+ \boxed{\Phi_n(H)\ge h_n(K(k,\gamma)).}
+\]
+A finite exact coefficient test can reduce the threshold to $k+1$.
+That stronger threshold has been verified for the seeds used in the displayed
+large-dimension refinements.
+\end{theorem}
+When the threshold $k+1$ is certified, the seed endpoint
+$h_k(K(k,\gamma))=\gamma$ extends the resulting bound to every $n\ge k$.
+
+Here $K$ is a number extracted from a universal certificate. It is not an
+assumption on the particular map $H$. The theorem therefore produces
+dimension-only bounds.
+
+The gain from improving a seed is explicit. For $\gamma'>\gamma$,
+\[
+ K(k,\gamma')-K(k,\gamma)
+ =\frac{(k^2-1)(\gamma'-\gamma)}{(1-\gamma')(1-\gamma)}>0.
+\]
+For $K'>K$, with $N=n(n-1)$,
+\[
+ \boxed{h_n(K')-h_n(K)
+ =\frac{(K'-K)(n^2-1)}{(N+K')(N+K)}>0.}
+\]
+Thus one strict seed improvement, provided it raises $K$ beyond the existing
+maximum, improves the entire tail of the universal bound. The exact gains
+are checked by \texttt{compile\_bounds.py}.
+
+This has already produced the following sequence:
+\begin{center}
+\begin{tabular}{rrr}
+\toprule
+Seed dimension & Certified $\gamma_k$ & Transport constant $K$\\
+\midrule
+7&$-0.05531371738\ldots$&$3.4841050666\ldots$\\
+8&$-0.05274023$&$3.8438230103\ldots$\\
+9&$-0.05064282$&$4.1438601940\ldots$\\
+12&$-0.04338172$&$5.0543467064\ldots$\\
+16&$-0.0365074575$&$6.0184904168\ldots$\\
+17&$-0.0352435158$&$6.1954154790\ldots$\\
+18&$-0.0342921802$&$6.2908653699\ldots$\\
+\bottomrule
+\end{tabular}
+\end{center}
+The new rank-eighteen seed and its transport certificate are recorded in
+\texttt{compiled\_bounds.json}. No exact-optimum claim is made for that
+finite-dimensional linear program.
+
+\subsection{A first additional iteration improves the entire $n\ge8$ statement}
+The new calculation proves, by a rational feasible dual,
+\[
+ \gamma_{18}=-\frac{171460901}{5000000000}=-0.0342921802.
+\]
+Its transport constant is strictly greater than $31/5$, and the exact
+polynomial residual certificate verifies transport from $n=19$. The seed
+itself supplies $n=18$. Combining this with the finite certificates in
+dimensions $8,\ldots,17$ gives
+\[
+ \boxed{\Phi_n(H)\ge-\frac{5n}{5n^2+31n+190}\qquad(n\ge8).}
+\]
+Indeed, all those finite comparisons hold over $\Q$, and the tail follows
+from $h_n(31/5)$: after the two denominators are multiplied out, its gap above
+$-n/(n^2+(31/5)n+38)$ has numerator
+$\frac{321}{25}n+\frac{1368}{5}>0$.
+This new simple formula improves the original one in every dimension of the
+same range, since
+\[
+ -\frac{5n}{5n^2+31n+190}+\frac{n}{n^2+6n+39}
+ =\frac{n(n-5)}{(5n^2+31n+190)(n^2+6n+39)}>0\quad(n\ge8).
+\]
+Its leading order remains $-1/n$; the improvement is in the certified
+correction terms. The cleaner $h_n(6)$ and the stronger subsequent
+transport constants remain useful large-dimension refinements.
+
+\section{Why the transport theorem is a positivity argument}
+Write the orbital determinant polynomial as
+\[
+ f_H(x)=\mathbb E_U\det H(U\operatorname{diag}(x)U^*)
+ =\sum_{\lambda\vdash n}w_\lambda
+ \frac{m_\lambda(x)}{m_\lambda(1^n)}.
+\]
+Positivity and unitality imply $w_\lambda\ge0$ and $\sum w_\lambda=1$.
+The target is the exact signed linear functional
+\[
+ \Phi_n(H)=\sum_{\lambda\vdash n}
+ \frac{(-1)^{n-\ell(\lambda)}}{\binom n{\ell(\lambda)}}w_\lambda.
+\]
+For $k$ active variables, define
+\[
+ \Delta_k=\prod_{i<j}(x_i-x_j),\quad
+ \D_k=\Delta_k^{-1}\partial_1\cdots\partial_k\Delta_k,
+ \quad\T_k=(\partial_1+\cdots+\partial_k)^k.
+\]
+The crucial inherited inequality is
+\[
+ (\D_k-\gamma_k\T_k)f_H\ge_{\rm coeff}0.
+\]
+It comes from compatible positive maps obtained by compressing the same $H$.
+Expanding positive baseline matrices into rank-one pieces gives nonnegative
+Gram weights multiplying lower-dimensional determinant contractions. A
+capacity-normalization argument extends the bistochastic seed to those
+unnormalized compressed maps. Positivity is used before averaging; no closure
+of orbital averages under stability or hyperbolicity is assumed.
+
+The Schur identity
+\[
+ \D_ks_\lambda=
+ \prod_{i=1}^k(\lambda_i+k-i)s_{\lambda-(1^k)}
+\]
+gives an exact coefficient calculus. The value is zero if $\lambda_k=0$.
+This identity makes the finite models computable using integer/rational
+linear algebra.
+
+One selected coefficient row is
+\[
+ J=\sum_{\mu\vdash k}\frac{(k)_s}{(n)_s}
+ \left(\frac{(-1)^j}{\binom kj}-\gamma\right)
+ w_{\mu\cup1^{n-k}}\ge0,
+ \quad j=k-\ell(\mu),\quad s=k-m_1(\mu).
+\]
+Together with
+\[
+ R=\frac{w_{(n-1,1)}}{n-1}-w_{(n)}\ge0,
+\]
+this yields a certificate of the form
+\[
+ \Phi_n-h_n(K)=tJ+\mathbf{1}_{n\text{ even}}(1/n+h_n(K))R
+ +\sum_\lambda c_\lambda w_\lambda,
+ \qquad t\ge0,\quad c_\lambda\ge0.
+\]
+After denominators are cleared, the finitely many selected residuals become
+polynomials in $n$. Nonnegative rational coefficients after the shift
+$n=n_0+z$ certify the entire range $n\ge n_0$, not a finite sample of
+dimensions. A separate analytic argument proves the general threshold $k+3$.
+The complete proof and parity correction are in
+\texttt{transport/transport\_general.md}.
+
+\section{How to obtain and validate the stronger seeds}
+At a fixed dimension retain nonnegative orbital weights, their normalization,
+the square-free coefficient floor, the complete characteristic-coefficient
+hulls of projection images, and every inherited mixed coefficient inequality.
+This gives a rational linear program
+\[
+ \min c^Tx\quad\text{subject to }Ax=b,\quad x\ge0.
+\]
+Every actual map gives a feasible point. A dual vector satisfying
+\[
+ A^Ty\le c
+\]
+therefore proves the universal floor $\gamma=b^Ty$.
+
+Numerical optimization proposes $y$. The implementation converts it to
+rational entries, repairs feasibility using the normalization blocks, and
+recomputes every residual $c-A^Ty$ exactly. A candidate that fails exact
+feasibility or fails to improve the retained bound is not counted as progress.
+The feasible dual, not the optimizer's printed objective, is the certificate.
+
+The scripts included here separate the stages:
+\begin{enumerate}
+\item \texttt{finite/checks/sparse\_extend.py}: discover and rationally certify
+one or more new finite-dimensional floors.
+\item \texttt{finite/checks/verify\_all.py}: reconstruct the models and verify
+the archived duals without trusting numerical optimization.
+\item \texttt{compile\_bounds.py}: transform the certified seeds into exact
+all-dimensional transport certificates, compare the bounds, and produce a
+single-formula envelope valid from dimension eight.
+\end{enumerate}
+Run commands from the method directory. For example, a next-rank discovery attempt after
+the rank-eighteen archive is
+\begin{verbatim}
+python3 finite/checks/sparse_extend.py 19 19 6
+python3 finite/checks/verify_all.py
+python3 compile_bounds.py
+\end{verbatim}
+The discovery attempt does not guarantee a strict improvement. Numerical
+discovery needs SciPy; the certificate verification and transport
+use exact rational arithmetic. The rank and spectral-degree arguments are
+explicit so a failed numerical proposal can be diagnosed without weakening
+the acceptance test.
+
+\section{Keeping the validity range fixed as certificates improve}
+Let $\mathcal C_t$ be the certificates retained after stage $t$, and let $n_i$
+be the proved transport threshold for certificate $i$. Define, for every
+$n\ge8$,
+\[
+ B_t(n)=\max\left\{-\frac{n}{n^2+6n+39},\quad
+ \gamma_n\ \text{if certified},\quad
+ h_n(K_i):i\in\mathcal C_t,\ n\ge n_i\right\}.
+\]
+Then $\Phi_n(H)\ge B_t(n)$ for all $n\ge8$, and retaining old certificates
+ensures $B_{t+1}(n)\ge B_t(n)$ pointwise. Improvements never require withdrawing
+the original range. Strict improvement at every stage is not guaranteed.
+
+A useful rational-envelope certificate avoids a long piecewise statement.
+Suppose $h_n(K)$ is known for $n\ge n_0$, and choose constants $A,B$ with
+$n^2+An+B>0$ on $n\ge8$. The comparison
+\[
+ h_n(K)\ge-\frac{n}{n^2+An+B}
+\]
+is equivalent, on the tail, to nonnegativity of
+\[
+ (K-A)n^2+[K+A(K+1)-B]n+B(K+1).
+\]
+Together with the finitely many exact comparisons below $n_0$, this is an
+all-dimensional certificate. For $A=K$, the tail test is only linear.
+The compiler selects $B$ from the exact finite caps
+\[
+ B\le-\frac{n}{\gamma_n}-n^2-An
+\]
+and checks the tail polynomial after shifting by $n_0$. This is a proved
+method of turning better seed certificates into better rational envelopes;
+it is not an assumed Pad\'e approximation to an unknown extremal function.
+
+\section{The proved limitation and what is not claimed}
+Transporting an already transported seed does not amplify it:
+\[
+ K(k,h_k(K))=K.
+\]
+A new finite calculation must genuinely improve the seed, or add a new valid
+constraint, to increase the transport constant. Adding a larger numerical
+rank by itself is not a mathematical improvement.
+
+There is also a stronger limitation theorem for the entire current recursive
+spectral/mixed system: if $\widehat\gamma_n$ is its exact recursively optimized
+floor, then
+\[
+ -\frac1n\le\widehat\gamma_n\le
+ -\frac{n-1-32\log n}{n(n-1)+32\log n}
+ \quad\text{for all sufficiently large }n.
+\]
+Hence $n\widehat\gamma_n\to-1$. The exact proof and independent audits are in
+the research package. This does not assert that the actual map minimum has
+that order, or that the hierarchy converges to it. The technology above
+delivers certified improvements to finite constants and rational correction
+terms. No uniform $o(1/n)$ theorem is claimed.
+\end{document}

@@ -1,0 +1,21 @@
+verified inherited seed 4
+verified inherited seed 5
+verified inherited seed 6
+verified inherited seed 7
+verified inherited seed 8
+verified inherited seed 9
+verified inherited seed 10
+verified inherited seed 11
+verified inherited seed 12
+verified inherited seed 13
+verified inherited seed 14
+verified inherited seed 15
+verified inherited seed 16
+verified inherited seed 17
+verified inherited seed 18
+{
+  "status": "passed",
+  "coefficient_identity_parameter_cases": 315,
+  "individual_coefficient_checks": 7029,
+  "all_inherited_seeds_reverified": true
+}

@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "raw_Gamma8": "-540672",
+  "Phi8": "-11/6881280",
+  "block_factorization_checks": 5,
+  "radius_checks": 18,
+  "Fischer_coefficient_checks": "n=2,...,40",
+  "first_factorial_failure": 33
+}

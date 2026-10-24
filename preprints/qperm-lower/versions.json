@@ -1,0 +1,21 @@
+{
+  "versions": [
+    {
+      "version": "v1",
+      "date": "2026-10-24",
+      "title": "Lower bounds for the quantum permanent",
+      "authors": [
+        "Suvrit Sra"
+      ],
+      "pages": 30,
+      "arxiv": null,
+      "arxiv_date": null,
+      "comment": null,
+      "abstract": "Griffiths's 1969 conjecture on the positivity of Schur forms reduces to the positivity of the quantum permanent $\\Phi_n$ on positive bistochastic maps. This conjecture was refuted by Du with a map for which $\\Phi_9<0$. Therefore, we ask: how negative can $\\Phi_n$ be? We prove a lower bound $\\Phi_n\\ge-3n/(3n^2+20n+103)$ (for $n\\ge 8$), and an asymptotically stronger bound $\\Phi_n\\ge-1/n+(3e^2-7-o(1))\\log n/n^2$. The key to our bounds is the orbital polynomial of the map, which turns $\\Phi_n$ into a linear function of a distribution on partitions and positivity into linear constraints. We also construct explicit maps for $n=8, 9$ that improve on Du's example. Finally, if $d_*\\in\\{4,\\ldots,8\\}$ is the first dimension for which $\\Phi_n<0$, the minimum $\\mu_n$ of $\\Phi_n$ over positive bistochastic maps satisfies $-\\mu_n=\\Omega(n^{-d_*})$; we conjecture the matching order $-\\mu_n=O(n^{-d_*})$.",
+      "files": [
+        "qperm-lower-v1.pdf",
+        "qperm-lower-v1-supplement.pdf"
+      ]
+    }
+  ]
+}

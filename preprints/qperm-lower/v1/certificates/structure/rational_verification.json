@@ -1,0 +1,95 @@
+{
+  "status": "passed",
+  "coefficient_identity_parameter_cases": 315,
+  "individual_coefficient_checks": 7029,
+  "uniform_floor_comparisons": [
+    {
+      "n": 4,
+      "certified_floor": "-3/62",
+      "clean_floor": "-1/20"
+    },
+    {
+      "n": 5,
+      "certified_floor": "-77957/1378367",
+      "clean_floor": "-3/53"
+    },
+    {
+      "n": 6,
+      "certified_floor": "-129358525188828749/2325438043571344896",
+      "clean_floor": "-1/17"
+    },
+    {
+      "n": 7,
+      "certified_floor": "-5408353173620987686795318309001825/97775984492669811845528183241796197",
+      "clean_floor": "-1/17"
+    },
+    {
+      "n": 8,
+      "certified_floor": "-5274023/100000000",
+      "clean_floor": "-3/52"
+    },
+    {
+      "n": 9,
+      "certified_floor": "-2532141/50000000",
+      "clean_floor": "-7/125"
+    },
+    {
+      "n": 10,
+      "certified_floor": "-4791679/100000000",
+      "clean_floor": "-2/37"
+    },
+    {
+      "n": 11,
+      "certified_floor": "-4573151/100000000",
+      "clean_floor": "-9/173"
+    },
+    {
+      "n": 12,
+      "certified_floor": "-1084543/25000000",
+      "clean_floor": "-1/20"
+    },
+    {
+      "n": 13,
+      "certified_floor": "-414257677/10000000000",
+      "clean_floor": "-11/229"
+    },
+    {
+      "n": 14,
+      "certified_floor": "-197275413/5000000000",
+      "clean_floor": "-3/65"
+    },
+    {
+      "n": 15,
+      "certified_floor": "-47409913/1250000000",
+      "clean_floor": "-13/293"
+    },
+    {
+      "n": 16,
+      "certified_floor": "-14602983/400000000",
+      "clean_floor": "-7/164"
+    },
+    {
+      "n": 17,
+      "certified_floor": "-176217579/5000000000",
+      "clean_floor": "-3/73"
+    },
+    {
+      "n": 18,
+      "certified_floor": "-171460901/5000000000",
+      "clean_floor": "-4/101"
+    }
+  ],
+  "all_inherited_seeds_reverified": true,
+  "rank_five_residuals": [
+    "14/55",
+    "0",
+    "0",
+    "49/330",
+    "21/110",
+    "0",
+    "0"
+  ],
+  "transport_residual_checks": 10701,
+  "all_proper_zero_seed_coefficient_checks": 2229,
+  "scope": "The all-dimensional claims are proved in PROOFS.md; finite checks calibrate the formulas."
+}

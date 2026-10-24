@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "seconds": 0.8898129463195801,
+  "independent_input_row_contractions": {
+    "(0, 0)": {
+      "Gamma": "-3/64",
+      "Phi": "-1/7741440",
+      "q": "81/8"
+    },
+    "(1, 0)": {
+      "Gamma": "-21/128",
+      "Phi": "-1/2211840",
+      "q": "117/8"
+    },
+    "(0, 1)": {
+      "Gamma": "-21/128",
+      "Phi": "-1/2211840",
+      "q": "117/8"
+    },
+    "(1, 1)": {
+      "Gamma": "-63/128",
+      "Phi": "-1/737280",
+      "q": "153/8"
+    },
+    "(-1, 1)": {
+      "Gamma": "-63/128",
+      "Phi": "-1/737280",
+      "q": "153/8"
+    },
+    "(2, 3)": {
+      "Gamma": "-1893/128",
+      "Phi": "-631/15482880",
+      "q": "549/8"
+    },
+    "(-2, 2)": {
+      "Gamma": "-369/64",
+      "Phi": "-41/2580480",
+      "q": "369/8"
+    }
+  },
+  "scope": "Exact algebra. Positivity and the extremal parameter range are established analytically in the proof note."
+}

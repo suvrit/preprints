@@ -1,0 +1,50 @@
+{
+  "dense_rank_2": "input/output quadratic identities passed; all entries integral",
+  "dense_rank_3": "input/output quadratic identities passed; all entries integral",
+  "dense_rank_4": "input/output quadratic identities passed; all entries integral",
+  "rank8_family": {
+    "(0, 0)": {
+      "Gamma8": "-5/512",
+      "Phi8": "-1/4128768",
+      "q": "31/4"
+    },
+    "(1, 0)": {
+      "Gamma8": "-11/1024",
+      "Phi8": "-11/41287680",
+      "q": "43/4"
+    },
+    "(0, 1)": {
+      "Gamma8": "-31/1024",
+      "Phi8": "-31/41287680",
+      "q": "43/4"
+    },
+    "(1, 1)": {
+      "Gamma8": "-33/512",
+      "Phi8": "-11/6881280",
+      "q": "55/4"
+    },
+    "(-1, 1)": {
+      "Gamma8": "-33/512",
+      "Phi8": "-11/6881280",
+      "q": "55/4"
+    },
+    "(Fraction(3, 4), 0)": {
+      "Gamma8": "-401/32768",
+      "Phi8": "-401/1321205760",
+      "q": "151/16"
+    },
+    "(2, 3)": {
+      "Gamma8": "-1331/1024",
+      "Phi8": "-1331/41287680",
+      "q": "187/4"
+    }
+  },
+  "independent_contraction_algorithms": "fixed output-row bitmask and fixed input-row tuple recurrences",
+  "strict_rank8": {
+    "map": "(99/100)T_11+(1/100)Delta8",
+    "margin": "1/800",
+    "Phi": "-7271299899816808843/5872025600000000000000000",
+    "raw_Gamma": -1072196798027387364753408
+  },
+  "status": "passed"
+}

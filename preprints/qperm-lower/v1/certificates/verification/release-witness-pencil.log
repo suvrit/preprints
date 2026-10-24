@@ -1,0 +1,6 @@
+coherent Qj formula passed 9 exact tests
+general coefficient formula passed 6 exact tests
+c coefficients Phi(Q+tH8): ['0', '0', '0', '1/1376256', '5/1376256', '41/6881280', '1/458752', '-17/6881280', '-11/6881280']
+b coefficients Phi(Q+t(H8-Q)): ['0', '0', '0', '1/1376256', '0', '-3/2293760', '-1/860160', '1/6881280', '0']
+Three exact higher-dimensional contractions passed.
+Rational limiting certificate at u=3/5: -4947/50000

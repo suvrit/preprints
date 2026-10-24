@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "largest_seed_rank": 18,
+  "largest_K": "32532964294/5171460901",
+  "largest_K_decimal": 6.290865369920739,
+  "combined_bound_starts": 18,
+  "transport_starts": 19,
+  "universal_formula_starts": 8,
+  "single_formula_B": "1018970066171739632/27274403735474723",
+  "exact_gain_checks": 32
+}

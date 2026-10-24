@@ -1,0 +1,105 @@
+{
+  "release": "2026-10-22-push",
+  "copied_files": {
+    "checks/fast_adapter.py": {
+      "source": "certificates-2026-10-22/checks/fast_adapter.py",
+      "sha256": "bcd4b1657ca3e2e633ac08d016dd185b18cba80be327ddfe1a54cdcb90d28c32"
+    },
+    "checks/mixed_model.py": {
+      "source": "certificates-2026-10-22/checks/mixed_model.py",
+      "sha256": "b02085c99451915ed93050c47aa4f6c98cd80a8d6afbce5fb5edffcddee89018"
+    },
+    "checks/radial_exact.py": {
+      "source": "certificates-2026-10-22/checks/radial_exact.py",
+      "sha256": "9a7eab8b4b7c3c9771736ce02f6ffd79232ba665e310f7aa1dff591787ef79bf"
+    },
+    "checks/radial_schur.py": {
+      "source": "certificates-2026-10-22/checks/radial_schur.py",
+      "sha256": "b20a65ac3ca05a148eb66aefe2c3e63286614a9d747a303bea8cfe5f616cdf4e"
+    },
+    "checks/sparse_extend.py": {
+      "source": "certificates-2026-10-22/checks/sparse_extend.py",
+      "sha256": "776dc5d7949c38068ffc02d5798a03cdc802a110b0d2374d4f5c7b4a7036efe2"
+    },
+    "checks/spectral_model.py": {
+      "source": "certificates-2026-10-22/checks/spectral_model.py",
+      "sha256": "130ae2732c2608fecdbda6b81975ec86778094dcb171e99ee5ea58a58238fc43"
+    },
+    "checks/verify_transport_general.py": {
+      "source": "certificates-2026-10-22/checks/verify_transport_general.py",
+      "sha256": "20e6591fb90b77b9232419e77bdc04e59f432135a7369c579c6ff5c4155bbd70"
+    },
+    "finite/recursive_cert_4.json": {
+      "source": "certificates-2026-10-22/finite/recursive_cert_4.json",
+      "sha256": "f1dd56491776d9791402bf5d0d582e9d4d7e93ee162a5fad7cdb986ced15f4c0"
+    },
+    "finite/recursive_cert_5.json": {
+      "source": "certificates-2026-10-22/finite/recursive_cert_5.json",
+      "sha256": "f4ec916a00f4fcda21f3dacd2ab165f4282693e03383362e810b15a5e72d8af9"
+    },
+    "finite/recursive_cert_6.json": {
+      "source": "certificates-2026-10-22/finite/recursive_cert_6.json",
+      "sha256": "9c6a8f794ae2fdb4e7eb00bd5aaa269741e4e5d1cbea6ff040d385b97e84cb88"
+    },
+    "finite/recursive_cert_7.json": {
+      "source": "certificates-2026-10-22/finite/recursive_cert_7.json",
+      "sha256": "cf862f15f78c8ab356cc01ca77bda6a5cbfd34e619379a56ae700579dda492a5"
+    },
+    "finite/dual_8.json": {
+      "source": "bounds-push/root/accepted_8_n8_probability_highs-ipm.json",
+      "sha256": "4bd3338f68be82d6b16aeb09d1c6238b09bd70c11c2a331c679e6256a015cf5e"
+    },
+    "finite/dual_9.json": {
+      "source": "certificates-2026-10-22/finite/dual_9.json",
+      "sha256": "a9cf48fddfaf7779e8bfc8023ce96c9a55edd4e259badf79f175acb31b10c7dc"
+    },
+    "finite/dual_10.json": {
+      "source": "certificates-2026-10-22/finite/dual_10.json",
+      "sha256": "d0222257813f3fc17355ca18d790c6d97e8cce70d0be730c39c6313a01c3748c"
+    },
+    "finite/dual_11.json": {
+      "source": "certificates-2026-10-22/finite/dual_11.json",
+      "sha256": "661243ace57b4d6b4312c7ffe172b318e9fa49fcdef0ed6fae5ecda8b7a67b22"
+    },
+    "finite/dual_12.json": {
+      "source": "certificates-2026-10-22/finite/dual_12.json",
+      "sha256": "0b8490e6593f66177cd8dcb72b3cd7260bbec6f8fe081892759206d017b80f85"
+    },
+    "finite/dual_13.json": {
+      "source": "certificates-2026-10-22/finite/dual_13.json",
+      "sha256": "bd7e40e33e1fa605bc5d5a8660c8af720534329ccac212d9d2291381322d0274"
+    },
+    "finite/dual_14.json": {
+      "source": "certificates-2026-10-22/finite/dual_14.json",
+      "sha256": "0bdee669b2b5f12a0979d577d1ec136fb4abf9d7d23674d8907150685febf9db"
+    },
+    "finite/dual_15.json": {
+      "source": "certificates-2026-10-22/finite/dual_15.json",
+      "sha256": "debc71da46112193b514c6165ddb269c54048509d4d79cb3b199cdcecdbdcdc6"
+    },
+    "finite/dual_16.json": {
+      "source": "certificates-2026-10-22/finite/dual_16.json",
+      "sha256": "823c0768531d002ba3200e749ba000d8d86152d9edd2a7d4e7db1dccd7bd46f8"
+    },
+    "finite/dual_17.json": {
+      "source": "certificates-2026-10-22/finite/dual_17.json",
+      "sha256": "2fae4641d1b5bd2f83ce57d59d4e71ee00793642ef47d7014ec816ff60cf7483"
+    },
+    "finite/dual_18.json": {
+      "source": "certificates-2026-10-22/finite/dual_18.json",
+      "sha256": "f8515dd17dd4fe430a9de9188a8e3a32bd31ceb3fb41260ee036b26a258955c9"
+    },
+    "finite/dual_19.json": {
+      "source": "bounds-push/numerical/accepted_19_n19_d10_highs-ipm_tol1e-08_tiny1e-12.json",
+      "sha256": "13a060e12b7d1e23454771afd7fcb0c043bf9db08d6cd701d5fca78654edc911"
+    },
+    "finite/dual_20.json": {
+      "source": "bounds-push/numerical/accepted_20_n20_d10_highs-ipm_tol1e-08_tiny1e-12_628632c85ed9.json",
+      "sha256": "bdce86822ac08367ededa2dd817420281e4ae2c31cf41c54513d14820a6128ec"
+    },
+    "finite/dual_21.json": {
+      "source": "bounds-push/numerical/accepted_21_n21_cuts_d10_moments_dcca392108b1_round0.json",
+      "sha256": "c2ef8eb066181d80010d8f1f3bea28c64a41f4f08ed873825da6a2c4fc77f862"
+    }
+  }
+}

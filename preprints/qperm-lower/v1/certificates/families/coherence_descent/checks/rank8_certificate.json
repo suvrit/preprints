@@ -1,0 +1,39 @@
+{
+  "input_indices_zero_based": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "output_indices_zero_based": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    8
+  ],
+  "output_filter_squared": [
+    1,
+    1,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "raw_Gamma": -540672,
+  "Gamma": "-33/512",
+  "Phi": "-11/6881280",
+  "q": "55/4",
+  "marginals": "both exactly I8",
+  "proof_of_positivity": "CP input/output compression and congruence of analytically positive Hcoh",
+  "independent_contractions": "output-row bitmask DP and input-row tuple DP agree"
+}

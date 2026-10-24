@@ -1,0 +1,122 @@
+{
+  "version": "2026.10.15.1",
+  "python": "3.14.2 (main, Dec  5 2025, 16:49:16) [Clang 17.0.0 (clang-1700.4.4.1)]",
+  "python_executable": "/opt/homebrew/opt/python@3.14/bin/python3.14",
+  "platform": "macOS-15.3.1-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "measurement": "time.perf_counter wall time; POSIX os.wait4 child rusage ru_maxrss (bytes on macOS)",
+  "scope": "Exact finite certificates, algebraic transport, negative witnesses and structural calibrations; no optimization, no external Python dependencies, no public upload.",
+  "runs": [
+    {
+      "name": "finite",
+      "working_directory_relative_to_release": ".",
+      "command": [
+        "python3",
+        "-B",
+        "finite/checks/verify_all.py"
+      ],
+      "exit_status": 0,
+      "elapsed_seconds": 35.834025,
+      "user_seconds": 35.506938,
+      "system_seconds": 0.19499,
+      "peak_resident_memory_bytes": 394248192,
+      "log": "release-finite.log"
+    },
+    {
+      "name": "transport",
+      "working_directory_relative_to_release": ".",
+      "command": [
+        "python3",
+        "-B",
+        "compile_bounds.py"
+      ],
+      "exit_status": 0,
+      "elapsed_seconds": 0.451228,
+      "user_seconds": 0.42812799999999995,
+      "system_seconds": 0.011463,
+      "peak_resident_memory_bytes": 20217856,
+      "log": "release-transport.log"
+    },
+    {
+      "name": "witness-seed",
+      "working_directory_relative_to_release": "witnesses",
+      "command": [
+        "python3",
+        "-B",
+        "polarization_result/verify.py"
+      ],
+      "exit_status": 0,
+      "elapsed_seconds": 0.185811,
+      "user_seconds": 0.177978,
+      "system_seconds": 0.005855,
+      "peak_resident_memory_bytes": 14843904,
+      "log": "release-witness-seed.log"
+    },
+    {
+      "name": "witness-pencil",
+      "working_directory_relative_to_release": "witnesses",
+      "command": [
+        "python3",
+        "-B",
+        "asymptotic_agents/padding/cp_summand_anisotropic.py"
+      ],
+      "exit_status": 0,
+      "elapsed_seconds": 1.233189,
+      "user_seconds": 1.219441,
+      "system_seconds": 0.010187,
+      "peak_resident_memory_bytes": 20709376,
+      "log": "release-witness-pencil.log"
+    },
+    {
+      "name": "structure-rational",
+      "working_directory_relative_to_release": ".",
+      "command": [
+        "python3",
+        "-B",
+        "structure/verify_rational.py",
+        "--seeds"
+      ],
+      "exit_status": 0,
+      "elapsed_seconds": 26.339676,
+      "user_seconds": 26.117018,
+      "system_seconds": 0.160404,
+      "peak_resident_memory_bytes": 404946944,
+      "log": "release-structure-rational.log"
+    },
+    {
+      "name": "structure-fixed-core",
+      "working_directory_relative_to_release": ".",
+      "command": [
+        "python3",
+        "-B",
+        "structure/verify_fixed_core.py"
+      ],
+      "exit_status": 0,
+      "elapsed_seconds": 0.055933,
+      "user_seconds": 0.031232,
+      "system_seconds": 0.006594999999999999,
+      "peak_resident_memory_bytes": 13631488,
+      "log": "release-structure-fixed-core.log"
+    },
+    {
+      "name": "structure-independent",
+      "working_directory_relative_to_release": ".",
+      "command": [
+        "python3",
+        "-B",
+        "structure/verify_independent.py"
+      ],
+      "exit_status": 0,
+      "elapsed_seconds": 0.337346,
+      "user_seconds": 0.329005,
+      "system_seconds": 0.006375,
+      "peak_resident_memory_bytes": 14499840,
+      "log": "release-structure-independent.log"
+    }
+  ],
+  "printed_manuscript_pencil_coefficients_match": true,
+  "copied_input_files_unchanged": true,
+  "total_elapsed_seconds": 64.446467,
+  "suite_peak_resident_memory_bytes": 404946944,
+  "status": "all checks passed"
+}

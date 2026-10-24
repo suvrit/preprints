@@ -1,0 +1,104 @@
+{
+  "status": "all fresh family checks passed",
+  "python": "3.14.2 (main, Dec  5 2025, 16:49:16) [Clang 17.0.0 (clang-1700.4.4.1)]",
+  "platform": "macOS-15.3.1-arm64-arm-64bit-Mach-O",
+  "commands": [
+    {
+      "name": "nine-full-polynomial",
+      "working_directory_relative_to_release": "families/coherent9",
+      "command": [
+        "python3",
+        "-B",
+        "verify_polynomial.py"
+      ],
+      "exit_status": 0,
+      "elapsed_seconds": 0.094338,
+      "peak_resident_memory_bytes": 20021248,
+      "log": "verification/family-nine-full-polynomial.log",
+      "generated_result": "families/coherent9/coherent_polynomial.json"
+    },
+    {
+      "name": "nine-input-order",
+      "working_directory_relative_to_release": "families/coherent9",
+      "command": [
+        "python3",
+        "-B",
+        "verify_input_order.py"
+      ],
+      "exit_status": 0,
+      "elapsed_seconds": 0.92253,
+      "peak_resident_memory_bytes": 28688384,
+      "log": "verification/family-nine-input-order.log",
+      "generated_result": "families/coherent9/verify_input_order.json"
+    },
+    {
+      "name": "eight-full-polynomial",
+      "working_directory_relative_to_release": "families/coherence_descent/checks",
+      "command": [
+        "python3",
+        "-B",
+        "rank8_family.py"
+      ],
+      "exit_status": 0,
+      "elapsed_seconds": 0.05665,
+      "peak_resident_memory_bytes": 15204352,
+      "log": "verification/family-eight-full-polynomial.log",
+      "generated_result": "families/coherence_descent/checks/rank8_family.json"
+    },
+    {
+      "name": "eight-input-output-descent",
+      "working_directory_relative_to_release": "families/coherence_descent/checks",
+      "command": [
+        "python3",
+        "-B",
+        "verify_descent.py"
+      ],
+      "exit_status": 0,
+      "elapsed_seconds": 0.300989,
+      "peak_resident_memory_bytes": 17842176,
+      "log": "verification/family-eight-input-output-descent.log",
+      "generated_result": "families/coherence_descent/checks/verify_descent.json"
+    },
+    {
+      "name": "eight-endpoint",
+      "working_directory_relative_to_release": "families/coherence_descent/checks",
+      "command": [
+        "python3",
+        "-B",
+        "rank8_certificate.py"
+      ],
+      "exit_status": 0,
+      "elapsed_seconds": 0.058489,
+      "peak_resident_memory_bytes": 15859712,
+      "log": "verification/family-eight-endpoint.log",
+      "generated_result": "families/coherence_descent/checks/rank8_certificate.json"
+    }
+  ],
+  "total_elapsed_seconds": 1.450361,
+  "peak_resident_memory_bytes": 28688384,
+  "coefficient_checks": {
+    "nine_Gamma_coefficients": {
+      "(0, 0)": "-3/64",
+      "(0, 2)": "-27/256",
+      "(0, 4)": "-3/256",
+      "(2, 0)": "-27/256",
+      "(2, 2)": "-3/16",
+      "(2, 4)": "-3/256",
+      "(4, 0)": "-3/256",
+      "(4, 2)": "-3/256"
+    },
+    "eight_Gamma_coefficients": {
+      "(0, 0)": "-5/512",
+      "(2, 0)": "-9/1024",
+      "(0, 2)": "-21/1024",
+      "(4, 0)": "1/128",
+      "(2, 2)": "-17/512"
+    },
+    "nine_negative_magnitude_improvement": "21/2",
+    "eight_negative_magnitude_improvement": "33/5",
+    "nine_family_minimum_Phi": "-1/737280",
+    "eight_family_minimum_Phi": "-11/6881280"
+  },
+  "copied_sources_unchanged": true,
+  "scope": "Full polynomial coefficient identities; independent input/output contraction checks at exact parameters; exact marginals, norm profiles and family gap identity. Positivity, exact parameter feasibility, and minimization on the full feasible square use the analytic manuscript proofs. The attained family minima are upper bounds on unrestricted mu_8 and mu_9, not global minima of the full positive bistochastic classes."
+}

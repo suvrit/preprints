@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "exact_minor_Wick_antisymmetry_checks": 543,
+  "exact_projection_polynomial_checks": 260,
+  "signed_phase_and_square_checks": 24,
+  "scope": "Finite independent algebra controls; see manuscript for general proofs."
+}
