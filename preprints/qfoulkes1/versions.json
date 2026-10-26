@@ -1,0 +1,20 @@
+{
+  "versions": [
+    {
+      "version": "v1",
+      "date": "2026-10-26",
+      "title": "The $q$-Foulkes problem I: A fusion inequality for Macdonald plethysms",
+      "authors": [
+        "Suvrit Sra"
+      ],
+      "pages": 20,
+      "arxiv": null,
+      "arxiv_date": null,
+      "comment": null,
+      "abstract": "We prove that the plethysm $H_m[\\widetilde H_\\mu]$ of a Macdonald polynomial by the Hall–Littlewood polynomial $H_m$ lies above the Macdonald polynomial $\\widetilde H_{m\\mu}$ obtained by fusing $m$ copies of $\\widetilde H_\\mu$. More specifically, the quotient $(H_m[\\widetilde H_\\mu]-\\widetilde H_{m\\mu})/(1-q^m)$ is Schur positive with coefficients in $\\mathbb N[q,t]$, and it is the character of an explicit module that we call the fusion defect. For one-row shapes the inequality places both $q$-Foulkes plethysms $H_b[H_a]$ and $H_a[H_b]$ above the same polynomial $H_{ab}$, and comparing their two defects we obtain a distorted version of Bergeron's $q$-analog of Foulkes' conjecture, in which the subtracted plethysm is shifted by $q^{a(a-1)\\lfloor b/2\\rfloor}$.",
+      "files": [
+        "qfoulkes1-v1.pdf"
+      ]
+    }
+  ]
+}
