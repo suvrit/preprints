@@ -32,25 +32,25 @@ not arXiv's.
 ## Papers
 
 <!-- release:start -->
-| Paper | Latest | Released | PDF | arXiv |
-|---|---|---|---|---|
-| [**The $q$-Foulkes problem I: A fusion inequality for Macdonald plethysms**](preprints/qfoulkes1/) | v1 | 26 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/qfoulkes1/v1/qfoulkes1-v1.pdf) | — |
-| [**Lower bounds for the quantum permanent**](preprints/qperm-lower/) | v1 | 24 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/qperm-lower/v1/qperm-lower-v1.pdf) | — |
-| [**On some positivity properties of the Riemann $\Xi$ function**](preprints/riem-xi/) | v1 | 20 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/riem-xi/v1/riem-xi-v1.pdf) | — |
-| [**Beyond Small Balls: A Determinant Inequality for Functions of Matrix Gaussian Series**](preprints/gsd/) | v1 | 19 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/gsd/v1/gsd-v1.pdf) | — |
-| [**A Spectral Blakley–Roy Inequality for Nonnegative Matrices**](preprints/pourya-rho/) | v1 | 15 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/pourya-rho/v1/pourya-rho-v1.pdf) | — |
-| [**Tsallis Metrics on Density Matrices via the S-Divergence**](preprints/tsallis/) | v1 | 13 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/tsallis/v1/tsallis-v1.pdf) | — |
-| [**The $p$-Bures–Wasserstein distance via $3\times3$ block matrices (with application to $p$-Bures–Wasserstein barycenters)**](preprints/pbures/) | v1 | 11 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/pbures/v1/pbures-v1.pdf) | [2610.15889v1](https://arxiv.org/abs/2610.15889v1) |
-| [**Sharp order-four sign regularity of a Jacobi theta kernel**](preprints/csordas/) | v1 | 10 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/csordas/v1/csordas-v1.pdf) | — |
-| [**A Proof of Petz's Conjecture on the Scalar Curvature of the Kubo–Mori Metric**](preprints/kubo-metric/) | v1 | 9 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/kubo-metric/v1/kubo-metric-v1.pdf) | — |
-| [**Wigner–Yanase–Dyson Metrics Have Monotone Curvature**](preprints/wyd/) | v1 | 9 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/wyd/v1/wyd-v1.pdf) | — |
-| [**On majorization inequalities for normalized Jack and Macdonald polynomials**](preprints/jackratio/) | v1 | 8 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/jackratio/v1/jackratio-v1.pdf) | — |
-| [**On Lin's Arithmetic–Geometric Means Conjecture for Singular Values**](preprints/linconj/) | v1 | 8 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/linconj/v1/linconj-v1.pdf) | — |
-| [**Weak positivity of Schur forms under decomposable curvature**](preprints/qperm/) | v1 | 8 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/qperm/v1/qperm-v1.pdf) | — |
-| [**Monotonicity of Turán-ratios of symmetric polynomials**](preprints/sym-turan/) | v1 | 7 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/sym-turan/v1/sym-turan-v1.pdf) | — |
-| [**A Proof of McLeod's 1959 Conjecture on Complete Homogeneous Symmetric Ratios**](preprints/mcleod-hk/) | v1 | 5 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/mcleod-hk/v1/mcleod-hk-v1.pdf) | [2610.07302v1](https://arxiv.org/abs/2610.07302v1) |
-| [**Positive definite functions of noncommuting contractions, Hua-Bellman matrices, and a new distance metric**](preprints/hua/) | v1 | 2 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/hua/v1/hua-v1.pdf) | [2112.00056v2](https://arxiv.org/abs/2112.00056v2) |
-| [**A Koteljanskii inequality for permanents**](preprints/perm-m-matrix/) | v1 | 2 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/perm-m-matrix/v1/perm-m-matrix-v1.pdf) | [2609.39979v1](https://arxiv.org/abs/2609.39979v1) |
+| Paper | Latest | Released | PDF | arXiv | Hexagon |
+|---|---|---|---|---|---|
+| [**The $q$-Foulkes problem I: A fusion inequality for Macdonald plethysms**](preprints/qfoulkes1/) | v1 | 26 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/qfoulkes1/v1/qfoulkes1-v1.pdf) | — | — |
+| [**Lower bounds for the quantum permanent**](preprints/qperm-lower/) | v1 | 24 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/qperm-lower/v1/qperm-lower-v1.pdf) | — | — |
+| [**On some positivity properties of the Riemann $\Xi$ function**](preprints/riem-xi/) | v1 | 20 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/riem-xi/v1/riem-xi-v1.pdf) | — | [2610.00584v1](https://hexagonmath.org/abs/2610.00584v1) |
+| [**Beyond Small Balls: A Determinant Inequality for Functions of Matrix Gaussian Series**](preprints/gsd/) | v1 | 19 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/gsd/v1/gsd-v1.pdf) | — | — |
+| [**A Spectral Blakley–Roy Inequality for Nonnegative Matrices**](preprints/pourya-rho/) | v1 | 15 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/pourya-rho/v1/pourya-rho-v1.pdf) | — | — |
+| [**Tsallis Metrics on Density Matrices via the S-Divergence**](preprints/tsallis/) | v1 | 13 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/tsallis/v1/tsallis-v1.pdf) | — | — |
+| [**The $p$-Bures–Wasserstein distance via $3\times3$ block matrices (with application to $p$-Bures–Wasserstein barycenters)**](preprints/pbures/) | v1 | 11 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/pbures/v1/pbures-v1.pdf) | [2610.15889v1](https://arxiv.org/abs/2610.15889v1) | — |
+| [**Sharp order-four sign regularity of a Jacobi theta kernel**](preprints/csordas/) | v1 | 10 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/csordas/v1/csordas-v1.pdf) | — | — |
+| [**A Proof of Petz's Conjecture on the Scalar Curvature of the Kubo–Mori Metric**](preprints/kubo-metric/) | v1 | 9 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/kubo-metric/v1/kubo-metric-v1.pdf) | — | — |
+| [**Wigner–Yanase–Dyson Metrics Have Monotone Curvature**](preprints/wyd/) | v1 | 9 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/wyd/v1/wyd-v1.pdf) | — | — |
+| [**On majorization inequalities for normalized Jack and Macdonald polynomials**](preprints/jackratio/) | v1 | 8 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/jackratio/v1/jackratio-v1.pdf) | — | — |
+| [**On Lin's Arithmetic–Geometric Means Conjecture for Singular Values**](preprints/linconj/) | v1 | 8 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/linconj/v1/linconj-v1.pdf) | — | — |
+| [**Weak positivity of Schur forms under decomposable curvature**](preprints/qperm/) | v1 | 8 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/qperm/v1/qperm-v1.pdf) | — | — |
+| [**Monotonicity of Turán-ratios of symmetric polynomials**](preprints/sym-turan/) | v1 | 7 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/sym-turan/v1/sym-turan-v1.pdf) | — | — |
+| [**A Proof of McLeod's 1959 Conjecture on Complete Homogeneous Symmetric Ratios**](preprints/mcleod-hk/) | v1 | 5 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/mcleod-hk/v1/mcleod-hk-v1.pdf) | [2610.07302v1](https://arxiv.org/abs/2610.07302v1) | — |
+| [**Positive definite functions of noncommuting contractions, Hua-Bellman matrices, and a new distance metric**](preprints/hua/) | v1 | 2 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/hua/v1/hua-v1.pdf) | [2112.00056v2](https://arxiv.org/abs/2112.00056v2) | — |
+| [**A Koteljanskii inequality for permanents**](preprints/perm-m-matrix/) | v1 | 2 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/perm-m-matrix/v1/perm-m-matrix-v1.pdf) | [2609.39979v1](https://arxiv.org/abs/2609.39979v1) | — |
 <!-- release:end -->
 
 ## Checking a timestamp
