@@ -8,8 +8,8 @@
 [![arXiv: Suvrit Sra](https://img.shields.io/badge/arXiv-Suvrit%20Sra-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/search/?searchtype=author&query=Sra%2C+Suvrit)
 [![format: PDF](https://img.shields.io/badge/format-PDF-4c566a)](#layout)
 <!-- badges:start -->
-[![papers](https://img.shields.io/badge/papers-17-0b7285)](#papers)
-[![versions](https://img.shields.io/badge/versions-17-0b7285)](#papers)
+[![papers](https://img.shields.io/badge/papers-18-0b7285)](#papers)
+[![versions](https://img.shields.io/badge/versions-18-0b7285)](#papers)
 <!-- badges:end -->
 
 <sub>Every version stays available. Every released file carries an
@@ -34,6 +34,7 @@ not arXiv's.
 <!-- release:start -->
 | Paper | Latest | Released | PDF | arXiv | Hexagon |
 |---|---|---|---|---|---|
+| [**The $q$-Foulkes problem II: Schur positivity with high probability**](preprints/qfoulkes2/) | v1 | 28 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/qfoulkes2/v1/qfoulkes2-v1.pdf) | — | — |
 | [**The $q$-Foulkes problem I: A fusion inequality for Macdonald plethysms**](preprints/qfoulkes1/) | v1 | 26 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/qfoulkes1/v1/qfoulkes1-v1.pdf) | — | — |
 | [**Lower bounds for the quantum permanent**](preprints/qperm-lower/) | v1 | 24 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/qperm-lower/v1/qperm-lower-v1.pdf) | — | — |
 | [**On some positivity properties of the Riemann $\Xi$ function**](preprints/riem-xi/) | v1 | 20 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/riem-xi/v1/riem-xi-v1.pdf) | — | [2610.00584v1](https://hexagonmath.org/abs/2610.00584v1) |

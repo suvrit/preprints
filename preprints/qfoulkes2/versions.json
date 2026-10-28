@@ -1,0 +1,20 @@
+{
+  "versions": [
+    {
+      "version": "v1",
+      "date": "2026-10-28",
+      "title": "The $q$-Foulkes problem II: Schur positivity with high probability",
+      "authors": [
+        "Suvrit Sra"
+      ],
+      "pages": 32,
+      "arxiv": null,
+      "arxiv_date": null,
+      "comment": null,
+      "abstract": "Bergeron's $q$-analog of Foulkes' conjecture asserts that $(H_b[H_a]-H_a[H_b])/(1-q)$ is Schur positive for $a\\le b$, where $H_n$ is the (modified) Hall--Littlewood polynomial. We view this conjecture probabilistically: on each irreducible representation of $S_{ab}$, the two plethysms induce degree distributions, and positivity means that the first is stochastically smaller than the second. We prove that, for a random (Plancherel) irreducible representation and a degree sampled from its graded multiplicity, the corresponding coefficient is negative with probability at most $C\\exp(-c(ab)^{1/3})$, uniformly in $a\\le b$. Consequently, the $q$-Foulkes conjecture holds after deleting a fraction at most $C\\exp(-c(ab)^{1/3})$ of each of the two graded modules. Additionally, we show that exact conditional means and variances yield complete positivity for explicit width and height families.",
+      "files": [
+        "qfoulkes2-v1.pdf"
+      ]
+    }
+  ]
+}
