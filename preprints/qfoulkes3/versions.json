@@ -1,0 +1,21 @@
+{
+  "versions": [
+    {
+      "version": "v1",
+      "date": "2026-10-29",
+      "title": "The $q$-Foulkes problem III: On Foulkes' conjecture with a graded inner factor",
+      "authors": [
+        "Suvrit Sra"
+      ],
+      "pages": 18,
+      "arxiv": null,
+      "arxiv_date": null,
+      "comment": null,
+      "abstract": "We show that surjectivity of the canonical map $\\mathrm{Sym}^b(\\mathrm{Sym}^aV)\\to\\mathrm{Sym}^a(\\mathrm{Sym}^bV)$ survives grading of the inner factor. Consequently $h_b[H_a]-H_a[h_b]$ is Schur positive whenever the canonical map is surjective, where $H_a$ is the (modified) Hall--Littlewood polynomial; the same holds for (modified) Macdonald polynomials. We prove this surjectivity for $b\\ge(a-1)^2$, improving the known bound $a(a-1)$. For Bergeron's $q$-analog of Foulkes' conjecture that lets both factors be graded, we prove nonnegativity of every Schur coefficient for certain special cases. We also study the full conjecture under an expansion hypothesis on an explicit space of maps.",
+      "files": [
+        "qfoulkes3-v1.pdf",
+        "qfoulkes3-v1-supplement.pdf"
+      ]
+    }
+  ]
+}
