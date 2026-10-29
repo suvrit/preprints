@@ -1,0 +1,20 @@
+{
+  "versions": [
+    {
+      "version": "v1",
+      "date": "2026-10-29",
+      "title": "The Macdonald $(q,t)$-permanent II: Probability laws and their regions of validity",
+      "authors": [
+        "Suvrit Sra"
+      ],
+      "pages": 27,
+      "arxiv": null,
+      "arxiv_date": null,
+      "comment": null,
+      "abstract": "The Macdonald $(q,t)$-permanent replaces the constant cycle weight of the Vere-Jones $\\alpha$-permanent by $(1-t^k)/(1-q^k)$ for a cycle of length $k$. We determine which of the probability laws built on the $\\alpha$-permanent survive this deformation, and where. The scalar gamma-type law survives on the whole parameter square, but the matrix law, a compound Wishart matrix, is more fragile. We prove that it exists in every dimension exactly when $t\\in\\{0,q,q^2,\\ldots\\}$, and in dimension two exactly when $t\\le q$. We conjecture that in each fixed dimension the matrix law exists exactly on the region that we show to be necessary, a $q$-analogue of Gindikin's theorem.",
+      "files": [
+        "macperm2-v1.pdf"
+      ]
+    }
+  ]
+}
