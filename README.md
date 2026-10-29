@@ -34,10 +34,10 @@ not arXiv's.
 <!-- release:start -->
 | Paper | Latest | Released | PDF | arXiv | Hexagon |
 |---|---|---|---|---|---|
-| [**The Macdonald $(q,t)$-permanent I: Algebra and positivity**](preprints/macperm1/) | v1 | 29 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/macperm1/v1/macperm1-v1.pdf) | — | — |
 | [**The Macdonald $(q,t)$-permanent II: Probability laws and their regions of validity**](preprints/macperm2/) | v1 | 29 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/macperm2/v1/macperm2-v1.pdf) | — | — |
-| [**The $q$-Foulkes problem III: On Foulkes' conjecture with a graded inner factor**](preprints/qfoulkes3/) | v1 | 29 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/qfoulkes3/v1/qfoulkes3-v1.pdf) | — | — |
+| [**The Macdonald $(q,t)$-permanent I: Algebra and positivity**](preprints/macperm1/) | v1 | 29 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/macperm1/v1/macperm1-v1.pdf) | — | — |
 | [**On some positivity properties of the Riemann $\Xi$ function**](preprints/riem-xi/) | v2 | 29 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v2-0b7285)](preprints/riem-xi/v2/riem-xi-v2.pdf) | — | [2610.00584v1](https://hexagonmath.org/abs/2610.00584v1) |
+| [**The $q$-Foulkes problem III: On Foulkes' conjecture with a graded inner factor**](preprints/qfoulkes3/) | v1 | 29 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/qfoulkes3/v1/qfoulkes3-v1.pdf) | — | — |
 | [**The $q$-Foulkes problem II: Schur positivity with high probability**](preprints/qfoulkes2/) | v1 | 28 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/qfoulkes2/v1/qfoulkes2-v1.pdf) | — | — |
 | [**The $q$-Foulkes problem I: A fusion inequality for Macdonald plethysms**](preprints/qfoulkes1/) | v1 | 26 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/qfoulkes1/v1/qfoulkes1-v1.pdf) | — | — |
 | [**Lower bounds for the quantum permanent**](preprints/qperm-lower/) | v1 | 24 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/qperm-lower/v1/qperm-lower-v1.pdf) | — | — |
@@ -46,8 +46,8 @@ not arXiv's.
 | [**Tsallis Metrics on Density Matrices via the S-Divergence**](preprints/tsallis/) | v1 | 13 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/tsallis/v1/tsallis-v1.pdf) | — | — |
 | [**The $p$-Bures–Wasserstein distance via $3\times3$ block matrices (with application to $p$-Bures–Wasserstein barycenters)**](preprints/pbures/) | v1 | 11 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/pbures/v1/pbures-v1.pdf) | [2610.15889v1](https://arxiv.org/abs/2610.15889v1) | — |
 | [**Sharp order-four sign regularity of a Jacobi theta kernel**](preprints/csordas/) | v1 | 10 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/csordas/v1/csordas-v1.pdf) | — | — |
-| [**A Proof of Petz's Conjecture on the Scalar Curvature of the Kubo–Mori Metric**](preprints/kubo-metric/) | v1 | 9 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/kubo-metric/v1/kubo-metric-v1.pdf) | — | — |
 | [**Wigner–Yanase–Dyson Metrics Have Monotone Curvature**](preprints/wyd/) | v1 | 9 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/wyd/v1/wyd-v1.pdf) | — | — |
+| [**A Proof of Petz's Conjecture on the Scalar Curvature of the Kubo–Mori Metric**](preprints/kubo-metric/) | v1 | 9 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/kubo-metric/v1/kubo-metric-v1.pdf) | — | — |
 | [**On majorization inequalities for normalized Jack and Macdonald polynomials**](preprints/jackratio/) | v1 | 8 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/jackratio/v1/jackratio-v1.pdf) | — | — |
 | [**On Lin's Arithmetic–Geometric Means Conjecture for Singular Values**](preprints/linconj/) | v1 | 8 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/linconj/v1/linconj-v1.pdf) | — | — |
 | [**Weak positivity of Schur forms under decomposable curvature**](preprints/qperm/) | v1 | 8 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/qperm/v1/qperm-v1.pdf) | — | — |
