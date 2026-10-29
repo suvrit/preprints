@@ -9,7 +9,7 @@
 [![format: PDF](https://img.shields.io/badge/format-PDF-4c566a)](#layout)
 <!-- badges:start -->
 [![papers](https://img.shields.io/badge/papers-19-0b7285)](#papers)
-[![versions](https://img.shields.io/badge/versions-19-0b7285)](#papers)
+[![versions](https://img.shields.io/badge/versions-20-0b7285)](#papers)
 <!-- badges:end -->
 
 <sub>Every version stays available. Every released file carries an
@@ -35,10 +35,10 @@ not arXiv's.
 | Paper | Latest | Released | PDF | arXiv | Hexagon |
 |---|---|---|---|---|---|
 | [**The $q$-Foulkes problem III: On Foulkes' conjecture with a graded inner factor**](preprints/qfoulkes3/) | v1 | 29 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/qfoulkes3/v1/qfoulkes3-v1.pdf) | — | — |
+| [**On some positivity properties of the Riemann $\Xi$ function**](preprints/riem-xi/) | v2 | 29 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v2-0b7285)](preprints/riem-xi/v2/riem-xi-v2.pdf) | — | [2610.00584v1](https://hexagonmath.org/abs/2610.00584v1) |
 | [**The $q$-Foulkes problem II: Schur positivity with high probability**](preprints/qfoulkes2/) | v1 | 28 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/qfoulkes2/v1/qfoulkes2-v1.pdf) | — | — |
 | [**The $q$-Foulkes problem I: A fusion inequality for Macdonald plethysms**](preprints/qfoulkes1/) | v1 | 26 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/qfoulkes1/v1/qfoulkes1-v1.pdf) | — | — |
 | [**Lower bounds for the quantum permanent**](preprints/qperm-lower/) | v1 | 24 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/qperm-lower/v1/qperm-lower-v1.pdf) | — | — |
-| [**On some positivity properties of the Riemann $\Xi$ function**](preprints/riem-xi/) | v1 | 20 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/riem-xi/v1/riem-xi-v1.pdf) | — | [2610.00584v1](https://hexagonmath.org/abs/2610.00584v1) |
 | [**Beyond Small Balls: A Determinant Inequality for Functions of Matrix Gaussian Series**](preprints/gsd/) | v1 | 19 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/gsd/v1/gsd-v1.pdf) | — | — |
 | [**A Spectral Blakley–Roy Inequality for Nonnegative Matrices**](preprints/pourya-rho/) | v1 | 15 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/pourya-rho/v1/pourya-rho-v1.pdf) | — | — |
 | [**Tsallis Metrics on Density Matrices via the S-Divergence**](preprints/tsallis/) | v1 | 13 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/tsallis/v1/tsallis-v1.pdf) | — | — |
