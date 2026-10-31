@@ -1,0 +1,21 @@
+{
+  "versions": [
+    {
+      "version": "v1",
+      "date": "2026-10-31",
+      "released": "2026-10-31T23:02:30+00:00",
+      "title": "A new proof of van der Waerden's inequality, and beyond",
+      "authors": [
+        "Suvrit Sra"
+      ],
+      "pages": 31,
+      "arxiv": null,
+      "arxiv_date": null,
+      "comment": null,
+      "abstract": "We give a new, self-contained proof of van der Waerden's permanent inequality via a monotone-averaging argument. Specifically, we show that the minimum total correlation of a random permutation with prescribed doubly stochastic marginals never decreases when two rows or two columns of the marginal matrix are averaged. This quantity is largest at the uniform matrix, which yields van der Waerden's bound. The monotone-averaging rests on the quadratic Alexandrov–Fenchel inequality, which lets us extend the argument to many other problems. In this way we also prove the Friedland–Tverberg inequalities and Gurvits's coefficient bound for Lorentzian polynomials.",
+      "files": [
+        "gurvits-lower-v1.pdf"
+      ]
+    }
+  ]
+}
