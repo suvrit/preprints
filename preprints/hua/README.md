@@ -8,6 +8,7 @@ Suvrit Sra
 [![latest version](https://img.shields.io/badge/latest-v1-0b7285)](v1/)
 [![PDF](https://img.shields.io/badge/PDF-download-0b7285)](v1/hua-v1.pdf)
 [![arXiv](https://img.shields.io/badge/arXiv-2112.00056v2-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2112.00056v2)
+[![Hexagon](https://img.shields.io/badge/Hexagon-2610.00620v1-334155)](https://hexagonmath.org/abs/2610.00620v1)
 [![OpenTimestamps proof](https://img.shields.io/badge/timestamp-OpenTimestamps-f7931a?logo=bitcoin&logoColor=white)](v1/hua-v1.pdf.ots)
 
 <sub>12 pages · v1 released 2 October 2026 · 1 version</sub>
@@ -16,7 +17,7 @@ Suvrit Sra
 
 ## v1 — 2 October 2026
 
-**Positive definite functions of noncommuting contractions, Hua-Bellman matrices, and a new distance metric** · 12 pages · also on arXiv as [2112.00056v2](https://arxiv.org/abs/2112.00056v2) (29 September 2026)
+**Positive definite functions of noncommuting contractions, Hua-Bellman matrices, and a new distance metric** · 12 pages · also on arXiv as [2112.00056v2](https://arxiv.org/abs/2112.00056v2) (29 September 2026) · also on Hexagon as [hexagon:2610.00620v1](https://hexagonmath.org/abs/2610.00620v1) (29 October 2026)
 
 | File | Timestamp |
 |---|---|
