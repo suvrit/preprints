@@ -8,8 +8,8 @@
 [![arXiv: Suvrit Sra](https://img.shields.io/badge/arXiv-Suvrit%20Sra-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/search/?searchtype=author&query=Sra%2C+Suvrit)
 [![format: PDF](https://img.shields.io/badge/format-PDF-4c566a)](#layout)
 <!-- badges:start -->
-[![papers](https://img.shields.io/badge/papers-21-0b7285)](#papers)
-[![versions](https://img.shields.io/badge/versions-22-0b7285)](#papers)
+[![papers](https://img.shields.io/badge/papers-22-0b7285)](#papers)
+[![versions](https://img.shields.io/badge/versions-23-0b7285)](#papers)
 <!-- badges:end -->
 
 <sub>Every version stays available. Every released file carries an
@@ -34,6 +34,7 @@ not arXiv's.
 <!-- release:start -->
 | Paper | Latest | Released | PDF | arXiv | Hexagon |
 |---|---|---|---|---|---|
+| [**A sharp Brégman–Minc bound for permanents**](preprints/gurvits/) | v1 | 31 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/gurvits/v1/gurvits-v1.pdf) | — | — |
 | [**The Macdonald $(q,t)$-permanent II: Probability laws and their regions of validity**](preprints/macperm2/) | v1 | 29 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/macperm2/v1/macperm2-v1.pdf) | — | — |
 | [**The Macdonald $(q,t)$-permanent I: Algebra and positivity**](preprints/macperm1/) | v1 | 29 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/macperm1/v1/macperm1-v1.pdf) | — | — |
 | [**On some positivity properties of the Riemann $\Xi$ function**](preprints/riem-xi/) | v2 | 29 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v2-0b7285)](preprints/riem-xi/v2/riem-xi-v2.pdf) | — | [2610.00584v1](https://hexagonmath.org/abs/2610.00584v1) |

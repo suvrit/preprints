@@ -1,0 +1,21 @@
+{
+  "versions": [
+    {
+      "version": "v1",
+      "date": "2026-10-31",
+      "released": "2026-10-31T20:10:46+00:00",
+      "title": "A sharp Brégman–Minc bound for permanents",
+      "authors": [
+        "Suvrit Sra"
+      ],
+      "pages": 12,
+      "arxiv": null,
+      "arxiv_date": null,
+      "comment": null,
+      "abstract": "We prove a sharp Brégman–Minc bound for permanents of nonnegative matrices that was conjectured by Samorodnitsky and Gurvits. Specifically, for $\\phi(x)=\\Gamma(1+1/x)^{-x}$, with $\\phi(0)=0$, applied entrywise, we show that every nonnegative row-stochastic square matrix $A$ satisfies $\\operatorname{per}\\phi[A]\\le1$, which is the Brégman–Minc inequality when each row of $A$ is uniform on its support. The crux of our proof is a scalar inequality on the simplex, which we prove using a carefully chosen yet elementary integral representation. We note brief applications to the entropy of a random permutation and to sharp bounds for rectangular permanents and matchings.",
+      "files": [
+        "gurvits-v1.pdf"
+      ]
+    }
+  ]
+}
