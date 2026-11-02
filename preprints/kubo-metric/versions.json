@@ -11,6 +11,8 @@
       "pages": 17,
       "arxiv": null,
       "arxiv_date": null,
+      "hexagon": "2610.00717v1",
+      "hexagon_date": "2026-11-02",
       "comment": null,
       "abstract": "Petz (1994) conjectured that the scalar curvature of the Kubo–Mori metric on invertible density matrices increases as the state becomes more mixed. Dittmann (2000) reduced the conjecture to the concavity of an explicit symmetric function $h$ on $(0,\\infty)^3$. We prove that $h$ is strictly concave, and hence Petz's conjecture. The proof writes $h=-1/(8M)$ with $M$ positive and homogeneous of degree one, and its central idea is to show that $t\\mapsto 1/M(X+tY)$ is a Stieltjes function for all $X,Y>0$; Cauchy–Schwarz and homogeneity then give concavity of $h$ on $(0,\\infty)^3$.",
       "files": [

@@ -7,6 +7,7 @@ Suvrit Sra
 
 [![latest version](https://img.shields.io/badge/latest-v1-0b7285)](v1/)
 [![PDF](https://img.shields.io/badge/PDF-download-0b7285)](v1/sym-turan-v1.pdf)
+[![Hexagon](https://img.shields.io/badge/Hexagon-2610.00720v1-334155)](https://hexagonmath.org/abs/2610.00720v1)
 [![OpenTimestamps proof](https://img.shields.io/badge/timestamp-OpenTimestamps-f7931a?logo=bitcoin&logoColor=white)](v1/sym-turan-v1.pdf.ots)
 
 <sub>10 pages · v1 released 7 October 2026 · 1 version</sub>
@@ -15,7 +16,7 @@ Suvrit Sra
 
 ## v1 — 7 October 2026
 
-**Monotonicity of Turán-ratios of symmetric polynomials** · 10 pages
+**Monotonicity of Turán-ratios of symmetric polynomials** · 10 pages · also on Hexagon as [hexagon:2610.00720v1](https://hexagonmath.org/abs/2610.00720v1) (2 November 2026)
 
 | File | Timestamp |
 |---|---|

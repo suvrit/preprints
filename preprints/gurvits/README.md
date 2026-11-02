@@ -7,6 +7,7 @@ Suvrit Sra
 
 [![latest version](https://img.shields.io/badge/latest-v1-0b7285)](v1/)
 [![PDF](https://img.shields.io/badge/PDF-download-0b7285)](v1/gurvits-v1.pdf)
+[![Hexagon](https://img.shields.io/badge/Hexagon-2610.00731v1-334155)](https://hexagonmath.org/abs/2610.00731v1)
 [![OpenTimestamps proof](https://img.shields.io/badge/timestamp-OpenTimestamps-f7931a?logo=bitcoin&logoColor=white)](v1/gurvits-v1.pdf.ots)
 
 <sub>12 pages · v1 released 31 October 2026 · 1 version</sub>
@@ -15,7 +16,7 @@ Suvrit Sra
 
 ## v1 — 31 October 2026
 
-**A sharp Brégman–Minc bound for permanents** · 12 pages
+**A sharp Brégman–Minc bound for permanents** · 12 pages · also on Hexagon as [hexagon:2610.00731v1](https://hexagonmath.org/abs/2610.00731v1) (2 November 2026)
 
 | File | Timestamp |
 |---|---|
