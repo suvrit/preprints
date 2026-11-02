@@ -8,8 +8,8 @@
 [![arXiv: Suvrit Sra](https://img.shields.io/badge/arXiv-Suvrit%20Sra-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/search/?searchtype=author&query=Sra%2C+Suvrit)
 [![format: PDF](https://img.shields.io/badge/format-PDF-4c566a)](#layout)
 <!-- badges:start -->
-[![papers](https://img.shields.io/badge/papers-23-0b7285)](#papers)
-[![versions](https://img.shields.io/badge/versions-25-0b7285)](#papers)
+[![papers](https://img.shields.io/badge/papers-24-0b7285)](#papers)
+[![versions](https://img.shields.io/badge/versions-26-0b7285)](#papers)
 <!-- badges:end -->
 
 <sub>Every version stays available. Every released file carries an
@@ -34,6 +34,7 @@ not arXiv's.
 <!-- release:start -->
 | Paper | Latest | Released | PDF | arXiv | Hexagon |
 |---|---|---|---|---|---|
+| [**The generalized Lax conjecture holds for mixed determinants**](preprints/eta/) | v1 | 2 November 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/eta/v1/eta-v1.pdf) | — | — |
 | [**On some positivity properties of the Riemann $\Xi$ function**](preprints/riem-xi/) | v3 | 2 November 2026 | [![PDF](https://img.shields.io/badge/PDF-v3-0b7285)](preprints/riem-xi/v3/riem-xi-v3.pdf) | — | [2610.00584v1](https://hexagonmath.org/abs/2610.00584v1) (v1) |
 | [**A new proof of van der Waerden's inequality, and beyond**](preprints/gurvits-lower/) | v1 | 31 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/gurvits-lower/v1/gurvits-lower-v1.pdf) | — | — |
 | [**A sharp Brégman–Minc bound for permanents**](preprints/gurvits/) | v1 | 31 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/gurvits/v1/gurvits-v1.pdf) | — | [2610.00731v1](https://hexagonmath.org/abs/2610.00731v1) (v1) |
