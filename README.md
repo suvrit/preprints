@@ -9,7 +9,7 @@
 [![format: PDF](https://img.shields.io/badge/format-PDF-4c566a)](#layout)
 <!-- badges:start -->
 [![papers](https://img.shields.io/badge/papers-23-0b7285)](#papers)
-[![versions](https://img.shields.io/badge/versions-24-0b7285)](#papers)
+[![versions](https://img.shields.io/badge/versions-25-0b7285)](#papers)
 <!-- badges:end -->
 
 <sub>Every version stays available. Every released file carries an
@@ -34,11 +34,11 @@ not arXiv's.
 <!-- release:start -->
 | Paper | Latest | Released | PDF | arXiv | Hexagon |
 |---|---|---|---|---|---|
+| [**On some positivity properties of the Riemann $\Xi$ function**](preprints/riem-xi/) | v3 | 2 November 2026 | [![PDF](https://img.shields.io/badge/PDF-v3-0b7285)](preprints/riem-xi/v3/riem-xi-v3.pdf) | — | [2610.00584v1](https://hexagonmath.org/abs/2610.00584v1) |
 | [**A new proof of van der Waerden's inequality, and beyond**](preprints/gurvits-lower/) | v1 | 31 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/gurvits-lower/v1/gurvits-lower-v1.pdf) | — | — |
 | [**A sharp Brégman–Minc bound for permanents**](preprints/gurvits/) | v1 | 31 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/gurvits/v1/gurvits-v1.pdf) | — | [2610.00731v1](https://hexagonmath.org/abs/2610.00731v1) |
 | [**The Macdonald $(q,t)$-permanent II: Probability laws and their regions of validity**](preprints/macperm2/) | v1 | 29 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/macperm2/v1/macperm2-v1.pdf) | — | [2610.00730v1](https://hexagonmath.org/abs/2610.00730v1) |
 | [**The Macdonald $(q,t)$-permanent I: Algebra and positivity**](preprints/macperm1/) | v1 | 29 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/macperm1/v1/macperm1-v1.pdf) | — | [2610.00729v1](https://hexagonmath.org/abs/2610.00729v1) |
-| [**On some positivity properties of the Riemann $\Xi$ function**](preprints/riem-xi/) | v2 | 29 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v2-0b7285)](preprints/riem-xi/v2/riem-xi-v2.pdf) | — | [2610.00584v1](https://hexagonmath.org/abs/2610.00584v1) |
 | [**The $q$-Foulkes problem III: On Foulkes' conjecture with a graded inner factor**](preprints/qfoulkes3/) | v1 | 29 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/qfoulkes3/v1/qfoulkes3-v1.pdf) | — | [2610.00724v1](https://hexagonmath.org/abs/2610.00724v1) |
 | [**The $q$-Foulkes problem II: Schur positivity with high probability**](preprints/qfoulkes2/) | v1 | 28 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/qfoulkes2/v1/qfoulkes2-v1.pdf) | — | [2610.00723v1](https://hexagonmath.org/abs/2610.00723v1) |
 | [**The $q$-Foulkes problem I: A fusion inequality for Macdonald plethysms**](preprints/qfoulkes1/) | v1 | 26 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/qfoulkes1/v1/qfoulkes1-v1.pdf) | — | [2610.00722v1](https://hexagonmath.org/abs/2610.00722v1) |

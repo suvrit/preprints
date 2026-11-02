@@ -5,14 +5,40 @@
 
 Suvrit Sra
 
-[![latest version](https://img.shields.io/badge/latest-v2-0b7285)](v2/)
-[![PDF](https://img.shields.io/badge/PDF-download-0b7285)](v2/riem-xi-v2.pdf)
+[![latest version](https://img.shields.io/badge/latest-v3-0b7285)](v3/)
+[![PDF](https://img.shields.io/badge/PDF-download-0b7285)](v3/riem-xi-v3.pdf)
 [![Hexagon](https://img.shields.io/badge/Hexagon-2610.00584v1-334155)](https://hexagonmath.org/abs/2610.00584v1)
-[![OpenTimestamps proof](https://img.shields.io/badge/timestamp-OpenTimestamps-f7931a?logo=bitcoin&logoColor=white)](v2/riem-xi-v2.pdf.ots)
+[![OpenTimestamps proof](https://img.shields.io/badge/timestamp-OpenTimestamps-f7931a?logo=bitcoin&logoColor=white)](v3/riem-xi-v3.pdf.ots)
 
-<sub>27 pages · v2 released 29 October 2026 · 2 versions, all kept below</sub>
+<sub>53 pages · v3 released 2 November 2026 · 3 versions, all kept below</sub>
 
 </div>
+
+## v3 — 2 November 2026
+
+**On some positivity properties of the Riemann $\Xi$ function** · 53 pages
+
+| File | Timestamp |
+|---|---|
+| [`riem-xi-v3.pdf`](v3/riem-xi-v3.pdf) | [`riem-xi-v3.pdf.ots`](v3/riem-xi-v3.pdf.ots) |
+
+> **Abstract.** We prove strict log-concavity of the positive functions $`\Theta`$ and $`\Lambda`$ with one-sided and bilateral Laplace transforms $`1/\xi(\tfrac12+\sqrt s)`$ and $`1/\Xi`$, respectively, where $`\Xi(z)=\xi(\tfrac12+iz)`$. For either function, log-concavity is the Pólya frequency property of order two (PF$`_2`$). Without assuming the Riemann hypothesis (RH), but using its published verification up to height about $`3\cdot10^{12}`$, we further prove that both densities are PF$`_{k_*}`$ for $`k_*=1\,810\,540\,931\,075`$. The proof views $`\Theta`$ as a small signed perturbation of a density that is PF of every order, with an error bound independent of the order, so the numerical check reduces to scalar inequalities. Since $`\Lambda`$ is a Gaussian mixture of $`\Theta`$, it inherits the same order. Conversely, a pole obstruction shows that if either density is PF$`_k`$, then every zeta zero lower than the $`(k+2)`$-nd lies on the critical line. Finally, we prove that if RH holds up to height $`T>\tfrac12`$, then $`\Xi`$ satisfies the generalized Laguerre inequalities $`L_n[\Xi](x)\ge0`$ of every order $`n`$ for $`|x|\le T-\tfrac12`$, extending the case $`n=1`$ of Csordas, Ruttan and Varga (1991).
+
+<details>
+<summary>BibTeX</summary>
+
+```bibtex
+@misc{sra2026riem-xi-v3,
+  author       = {Suvrit Sra},
+  title        = {{On some positivity properties of the Riemann $\Xi$ function}},
+  year         = {2026},
+  month        = nov,
+  howpublished = {Preprint, \url{https://github.com/suvrit/preprints/tree/main/preprints/riem-xi/v3}},
+  note         = {Version v3, released 2 November 2026},
+}
+```
+
+</details>
 
 ## v2 — 29 October 2026
 

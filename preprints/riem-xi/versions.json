@@ -35,6 +35,23 @@
       "files": [
         "riem-xi-v2.pdf"
       ]
+    },
+    {
+      "version": "v3",
+      "date": "2026-11-02",
+      "released": "2026-11-02T12:36:05+00:00",
+      "title": "On some positivity properties of the Riemann $\\Xi$ function",
+      "authors": [
+        "Suvrit Sra"
+      ],
+      "pages": 53,
+      "arxiv": null,
+      "arxiv_date": null,
+      "comment": null,
+      "abstract": "We prove strict log-concavity of the positive functions $\\Theta$ and $\\Lambda$ with one-sided and bilateral Laplace transforms $1/\\xi(\\tfrac12+\\sqrt s)$ and $1/\\Xi$, respectively, where $\\Xi(z)=\\xi(\\tfrac12+iz)$. For either function, log-concavity is the Pólya frequency property of order two (PF$_2$). Without assuming the Riemann hypothesis (RH), but using its published verification up to height about $3\\cdot10^{12}$, we further prove that both densities are PF$_{k_*}$ for $k_*=1\\,810\\,540\\,931\\,075$. The proof views $\\Theta$ as a small signed perturbation of a density that is PF of every order, with an error bound independent of the order, so the numerical check reduces to scalar inequalities. Since $\\Lambda$ is a Gaussian mixture of $\\Theta$, it inherits the same order. Conversely, a pole obstruction shows that if either density is PF$_k$, then every zeta zero lower than the $(k+2)$-nd lies on the critical line. Finally, we prove that if RH holds up to height $T>\\tfrac12$, then $\\Xi$ satisfies the generalized Laguerre inequalities $L_n[\\Xi](x)\\ge0$ of every order $n$ for $|x|\\le T-\\tfrac12$, extending the case $n=1$ of Csordas, Ruttan and Varga (1991).",
+      "files": [
+        "riem-xi-v3.pdf"
+      ]
     }
   ]
 }
