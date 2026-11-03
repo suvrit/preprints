@@ -7,6 +7,7 @@ Suvrit Sra
 
 [![latest version](https://img.shields.io/badge/latest-v3-0b7285)](v3/)
 [![PDF](https://img.shields.io/badge/PDF-download-0b7285)](v3/riem-xi-v3.pdf)
+[![arXiv](https://img.shields.io/badge/arXiv-2611.02944v1-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2611.02944v1)
 [![Hexagon](https://img.shields.io/badge/Hexagon-2610.00584v1-334155)](https://hexagonmath.org/abs/2610.00584v1)
 [![OpenTimestamps proof](https://img.shields.io/badge/timestamp-OpenTimestamps-f7931a?logo=bitcoin&logoColor=white)](v3/riem-xi-v3.pdf.ots)
 
@@ -16,7 +17,7 @@ Suvrit Sra
 
 ## v3 — 2 November 2026
 
-**On some positivity properties of the Riemann $\Xi$ function** · 53 pages
+**On some positivity properties of the Riemann $\Xi$ function** · 53 pages · also on arXiv as [2611.02944v1](https://arxiv.org/abs/2611.02944v1) (2 November 2026)
 
 | File | Timestamp |
 |---|---|
@@ -29,12 +30,14 @@ Suvrit Sra
 
 ```bibtex
 @misc{sra2026riem-xi-v3,
-  author       = {Suvrit Sra},
-  title        = {{On some positivity properties of the Riemann $\Xi$ function}},
-  year         = {2026},
-  month        = nov,
-  howpublished = {Preprint, \url{https://github.com/suvrit/preprints/tree/main/preprints/riem-xi/v3}},
-  note         = {Version v3, released 2 November 2026},
+  author        = {Suvrit Sra},
+  title         = {{On some positivity properties of the Riemann $\Xi$ function}},
+  year          = {2026},
+  month         = nov,
+  howpublished  = {\url{https://arxiv.org/abs/2611.02944v1}},
+  eprint        = {2611.02944v1},
+  archiveprefix = {arXiv},
+  note          = {Also released as riem-xi v3 (2 November 2026) at \url{https://github.com/suvrit/preprints/tree/main/preprints/riem-xi/v3}},
 }
 ```
 
