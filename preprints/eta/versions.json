@@ -11,6 +11,8 @@
       "pages": 31,
       "arxiv": null,
       "arxiv_date": null,
+      "hexagon": "2611.00117v1",
+      "hexagon_date": "2026-11-05",
       "comment": null,
       "abstract": "We prove that the mixed determinant $\\eta(\\cdot)$ of Borcea and Brändén has a spectrahedral hyperbolicity cone. More precisely, for Hermitian matrices $A_1,\\ldots,A_m$ of order $d$, the hyperbolicity cone of $\\eta(A_1,\\ldots,A_m)$ is cut out by $\\sum_j\\Phi_j(A_j)\\succeq0$, where $\\Phi_1,\\ldots,\\Phi_m$ are explicit unital completely positive maps. We argue by induction on $d$, adding one row and one column to every argument and expressing the logarithmic derivatives of $\\eta$ as extremal eigenvalues. By compressing along polynomial boundary kernels, we reduce the order of the pencil $\\sum_j\\Phi_j(A_j)$ to $\\exp(O(md^3\\log m))$; for one fixed positive semidefinite $n\\times n$ matrix $A$ a separate pencil yields the order $\\exp(O(n^2\\log n))$. We also answer four problems of Borcea and Brändén negatively.",
       "files": [

@@ -34,9 +34,9 @@ not arXiv's.
 <!-- release:start -->
 | Paper | Latest | Released | PDF | arXiv | Hexagon |
 |---|---|---|---|---|---|
-| [**The generalized Lax conjecture holds for mixed determinants**](preprints/eta/) | v1 | 2 November 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/eta/v1/eta-v1.pdf) | — | — |
+| [**The generalized Lax conjecture holds for mixed determinants**](preprints/eta/) | v1 | 2 November 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/eta/v1/eta-v1.pdf) | — | [2611.00117v1](https://hexagonmath.org/abs/2611.00117v1) (v1) |
 | [**On some positivity properties of the Riemann $\Xi$ function**](preprints/riem-xi/) | v3 | 2 November 2026 | [![PDF](https://img.shields.io/badge/PDF-v3-0b7285)](preprints/riem-xi/v3/riem-xi-v3.pdf) | [2611.02944v1](https://arxiv.org/abs/2611.02944v1) | [2610.00584v1](https://hexagonmath.org/abs/2610.00584v1) (v1) |
-| [**A new proof of van der Waerden's inequality, and beyond**](preprints/gurvits-lower/) | v1 | 31 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/gurvits-lower/v1/gurvits-lower-v1.pdf) | — | — |
+| [**A new proof of van der Waerden's inequality, and beyond**](preprints/gurvits-lower/) | v1 | 31 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/gurvits-lower/v1/gurvits-lower-v1.pdf) | — | [2611.00118v1](https://hexagonmath.org/abs/2611.00118v1) (v1) |
 | [**A sharp Brégman–Minc bound for permanents**](preprints/gurvits/) | v1 | 31 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/gurvits/v1/gurvits-v1.pdf) | — | [2610.00731v1](https://hexagonmath.org/abs/2610.00731v1) (v1) |
 | [**The Macdonald $(q,t)$-permanent II: Probability laws and their regions of validity**](preprints/macperm2/) | v1 | 29 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/macperm2/v1/macperm2-v1.pdf) | — | [2610.00730v1](https://hexagonmath.org/abs/2610.00730v1) (v1) |
 | [**The Macdonald $(q,t)$-permanent I: Algebra and positivity**](preprints/macperm1/) | v1 | 29 October 2026 | [![PDF](https://img.shields.io/badge/PDF-v1-0b7285)](preprints/macperm1/v1/macperm1-v1.pdf) | — | [2610.00729v1](https://hexagonmath.org/abs/2610.00729v1) (v1) |
